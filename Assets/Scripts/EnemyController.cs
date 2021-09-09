@@ -6,14 +6,14 @@ public class EnemyController : MonoBehaviour
 {
     public EnemyState currentState;    
     
-    public enum EnemyState { Ready, EnableToAttack, Busy, Attack }
+    public enum EnemyState { Ready, EnableToAttack, Busy, Attack, Dead }
 
     private void Awake()
     {
-        currentState = EnemyState.Busy;
+        currentState = EnemyState.Ready;
     }
 
-    public EnemyState GetState()
+    public EnemyState GetCurrentState()
     {
         return currentState;
     }

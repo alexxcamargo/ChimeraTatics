@@ -47,7 +47,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   distanceToAttack: 3
-  hit: 0
   drawnLines: 1
 --- !u!1 &8396871695415597839
 GameObject:
@@ -61,9 +60,10 @@ GameObject:
   - component: {fileID: 8396871695415597833}
   - component: {fileID: 8396871695415597832}
   - component: {fileID: 8396871695415597835}
+  - component: {fileID: 180421996}
   m_Layer: 9
   m_Name: PlayerMeele
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,6 +98,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -119,8 +120,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 96267691
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -8065633087419060449, guid: b6047fc6c30f14e44bea2eb0052d52be,
     type: 3}
@@ -146,10 +147,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8c57575ab09f434d818a851d8d8f050, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundTileMap: {fileID: 0}
-  collisionTileMap: {fileID: 0}
+  _groundTileMap: {fileID: 0}
+  _collisionTileMap: {fileID: 0}
   steps: 6
   currentState: 0
+  playerName: Ranza
+  enemiesToAttack: []
 --- !u!61 &8396871695415597835
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -176,3 +179,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.37, y: 0.43}
   m_EdgeRadius: 0
+--- !u!114 &180421996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8396871695415597839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 199140fff95cba044b3826c1a362a000, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10

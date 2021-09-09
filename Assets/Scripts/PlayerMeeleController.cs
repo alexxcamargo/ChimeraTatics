@@ -1,41 +1,47 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public class PlayerMeeleController : MonoBehaviour
 {
     [SerializeField]
-    private Tilemap groundTileMap;
+    private Tilemap _groundTileMap;
     [SerializeField]
-    private Tilemap collisionTileMap;
-    private PlayerInput playerInput;
+    private Tilemap _collisionTileMap;
+    private PlayerInput _playerInput;
     public int steps;
-    private int countSteps = 0;
+    private int _countSteps = 0;
     public PlayerState currentState;
+    public string playerName;
+    public List<EnemyController> enemiesToAttack;
+    public bool alreadyMoved;
 
     public enum PlayerState { Ready, Selected, Busy, Attack }
 
     private void Awake()
     {
-        playerInput = new PlayerInput();
+        _playerInput = new PlayerInput();
         currentState = PlayerState.Ready;
+        enemiesToAttack = new List<EnemyController>();
     }
        
     private void Start()
     {
-        playerInput.Main.Movement.performed += ctx => Move(ctx.ReadValue<Vector2>());      
+        _playerInput.Main.Movement.performed += ctx => Move(ctx.ReadValue<Vector2>());      
     }
 
     public void EnableInput()
     {
-        playerInput.Enable();
+        UIController._instance.SetStepsLeftMessage("Steps left: " + (steps - _countSteps));
+        _playerInput.Enable();
     }
 
     public void DisableInput()
     {
-        playerInput.Disable();
+        _playerInput.Disable();
     }
 
     private void Move(Vector2 direction)
@@ -46,30 +52,30 @@ public class PlayerMeeleController : MonoBehaviour
             {
                 transform.position += (Vector3)direction;
             }
-            
         }
     }
 
     private bool VerifySteps()
     {
-        if (countSteps >= steps)
+        if (_countSteps >= steps)
         {
-            countSteps = 0;
-            currentState = PlayerState.Busy;
+            _countSteps = 0;
             DisableInput();
             return false;
         }
-
-        countSteps++;
+        
+        alreadyMoved = true;
+        _countSteps++;
+        UIController._instance.SetStepsLeftMessage("Steps left: " + (steps - _countSteps));
         return true;
         
     }
 
     private bool CanMove(Vector2 direction)
     {
-        Vector3Int gridPostion = groundTileMap.WorldToCell(transform.position + (Vector3)direction);
+        Vector3Int gridPostion = _groundTileMap.WorldToCell(transform.position + (Vector3)direction);
 
-        if (!groundTileMap.HasTile(gridPostion) || collisionTileMap.HasTile(gridPostion))
+        if (!_groundTileMap.HasTile(gridPostion) || _collisionTileMap.HasTile(gridPostion))
             return false;
 
         return true; 
@@ -78,5 +84,15 @@ public class PlayerMeeleController : MonoBehaviour
     public PlayerState GetCurrentState()
     {
         return currentState;
+    }
+
+    public void SetState(PlayerState playerState)
+    {
+        currentState = playerState;
+    }
+
+    public int GetSteps()
+    {
+        return _countSteps;
     }
 }

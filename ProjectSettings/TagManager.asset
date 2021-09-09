@@ -42,3 +42,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 2592236519
+    locked: 0
+  - name: Colliders
+    uniqueID: 3947903475
+    locked: 0
+  - name: Player
+    uniqueID: 96267691
+    locked: 0
+  - name: Enemy
+    uniqueID: 2173741927
+    locked: 0
