@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: 9d944f4f508b482458232b36d2f11be4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3271901710660401833
+    second: Grimoire_0
+  - first:
+      213: 8077825272485683586
+    second: Grimoire_1
+  - first:
+      213: 3595357367754412936
+    second: Grimoire_2
+  - first:
+      213: -3347718653320295342
+    second: Grimoire_3
+  - first:
+      213: -1934444739538637409
+    second: Grimoire_4
+  - first:
+      213: -709896225853296492
+    second: Grimoire_5
+  - first:
+      213: -8315232886026729165
+    second: Grimoire_6
+  - first:
+      213: -8852982723547843224
+    second: Grimoire_7
+  - first:
+      213: -5985899150954729641
+    second: Grimoire_8
+  - first:
+      213: -570500064877531547
+    second: Grimoire_9
+  - first:
+      213: -2562553702500807132
+    second: Grimoire_10
+  - first:
+      213: 7584778035137843948
+    second: Grimoire_11
+  - first:
+      213: 7234371898067205727
+    second: Grimoire_12
+  - first:
+      213: 4380570641976603682
+    second: Grimoire_13
+  - first:
+      213: -3496176305875465416
+    second: Grimoire_14
+  - first:
+      213: -3215321235801440653
+    second: Grimoire_15
+  - first:
+      213: -8050528964263157278
+    second: Grimoire_16
+  - first:
+      213: 4266879388603297800
+    second: Grimoire_17
+  - first:
+      213: 5452134902606044874
+    second: Grimoire_18
+  - first:
+      213: -1603213767013783588
+    second: Grimoire_19
+  - first:
+      213: 1829148462827706017
+    second: Grimoire_20
+  - first:
+      213: 4088940991355229942
+    second: Grimoire_21
+  - first:
+      213: 355105814243918598
+    second: Grimoire_22
+  - first:
+      213: 7253513978034275649
+    second: Grimoire_23
+  - first:
+      213: 5538547592603233792
+    second: Grimoire_24
+  - first:
+      213: 6906698119368374642
+    second: Grimoire_25
+  - first:
+      213: 2564412535076719361
+    second: Grimoire_26
+  - first:
+      213: -1998191685123139518
+    second: Grimoire_27
+  - first:
+      213: -5974772582272186567
+    second: Grimoire_28
+  - first:
+      213: -1594917079561368341
+    second: Grimoire_29
+  - first:
+      213: -6487812653968832800
+    second: Grimoire_30
+  - first:
+      213: 6536941196228891788
+    second: Grimoire_31
+  - first:
+      213: -1470919596082223744
+    second: Grimoire_32
+  - first:
+      213: -5516534150549104545
+    second: Grimoire_33
+  - first:
+      213: -1503961078650044494
+    second: Grimoire_34
+  - first:
+      213: 454633535715720338
+    second: Grimoire_35
+  - first:
+      213: 7946902269101093
+    second: Grimoire_36
+  - first:
+      213: -2807606142269142985
+    second: Grimoire_37
+  - first:
+      213: 7941713622057362586
+    second: Grimoire_38
+  - first:
+      213: 8462576510997497242
+    second: Grimoire_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grimoire_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 194
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755081cbabed792d0800000000000000
+      internalID: -3271901710660401833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 194
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281ae2489433a1070800000000000000
+      internalID: 8077825272485683586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 194
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883d5991a7645e130800000000000000
+      internalID: 3595357367754412936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 194
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c05ec2f938a81d0800000000000000
+      internalID: -3347718653320295342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 124
+        width: 69
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d2d2e22c87725e0800000000000000
+      internalID: -1934444739538637409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 164
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490bf9ec421f526f0800000000000000
+      internalID: -709896225853296492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_6
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 164
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3390bb30fbb5a9c80800000000000000
+      internalID: -8315232886026729165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_7
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 164
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865b2483e13e32580800000000000000
+      internalID: -8852982723547843224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 133
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fe706df60ddeca0800000000000000
+      internalID: -5985899150954729641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 133
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e23a0b63d2518f0800000000000000
+      internalID: -570500064877531547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_10
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 133
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ec39c0cfaff6cd0800000000000000
+      internalID: -2562553702500807132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_11
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 133
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce29394ef6b824960800000000000000
+      internalID: 7584778035137843948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_12
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 133
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e3d5579e6a56460800000000000000
+      internalID: 7234371898067205727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 101
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22435842ac9eacc30800000000000000
+      internalID: 4380570641976603682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_14
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 101
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bc7206c261b7fc0800000000000000
+      internalID: -3496176305875465416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_15
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 101
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ef84d1f52e063d0800000000000000
+      internalID: -3215321235801440653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_16
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 101
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1e91f7f86c64090800000000000000
+      internalID: -8050528964263157278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_17
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 101
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800b2217230073b30800000000000000
+      internalID: 4266879388603297800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 70
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace9759aecfd9ab40800000000000000
+      internalID: 5452134902606044874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_19
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 70
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7a026b29d30c9e0800000000000000
+      internalID: -1603213767013783588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_20
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 70
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a61c40f5d0726910800000000000000
+      internalID: 1829148462827706017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 70
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f61341ea26deb830800000000000000
+      internalID: 4088940991355229942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_22
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 70
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6034fab4bd69de400800000000000000
+      internalID: 355105814243918598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 70
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14540124888a9a460800000000000000
+      internalID: 7253513978034275649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_24
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 70
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ee5b4e0bfdcdc40800000000000000
+      internalID: 5538547592603233792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_25
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 70
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2797fc7a85589df50800000000000000
+      internalID: 6906698119368374642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_26
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 70
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b8ec22d9f969320800000000000000
+      internalID: 2564412535076719361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_27
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 38
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248981fcf3ff444e0800000000000000
+      internalID: -1998191685123139518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_28
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 38
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9374cebfdf7551da0800000000000000
+      internalID: -5974772582272186567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_29
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 38
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec8a8acd57bdd9e0800000000000000
+      internalID: -1594917079561368341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_30
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 38
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e647eed3c8a6f5a0800000000000000
+      internalID: -6487812653968832800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_31
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 38
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8417de3261e7ba50800000000000000
+      internalID: 6536941196228891788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 38
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085ab5eab6e369be0800000000000000
+      internalID: -1470919596082223744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_33
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 38
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58953dfa655173b0800000000000000
+      internalID: -5516534150549104545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_34
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 38
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bffc070e5bd02be0800000000000000
+      internalID: -1503961078650044494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_35
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 38
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cb05fbace2f4600800000000000000
+      internalID: 454633535715720338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_36
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52480de5aab3c1000800000000000000
+      internalID: 7946902269101093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_37
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738c7d4c6116909d0800000000000000
+      internalID: -2807606142269142985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_38
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a942c965672a63e60800000000000000
+      internalID: 7941713622057362586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grimoire_39
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 2
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a950296008c117570800000000000000
+      internalID: 8462576510997497242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

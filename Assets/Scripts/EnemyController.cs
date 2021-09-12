@@ -7,6 +7,7 @@ public class EnemyController : MonoBehaviour
     public EnemyState currentState;    
     
     public enum EnemyState { Ready, EnableToAttack, Busy, Attack, Dead }
+    
 
     private void Awake()
     {

@@ -1,31 +1,47 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.Design;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.UI;
 
-public class PlayerMeeleController : MonoBehaviour
+
+
+/// <summary>
+/// Move the player and update States
+/// </summary>
+public class PlayerController : MonoBehaviour
 {
     [SerializeField]
     private Tilemap _groundTileMap;
     [SerializeField]
     private Tilemap _collisionTileMap;
     private PlayerInput _playerInput;
-    public int steps;
+    public int steps = 10; 
+    private SpriteRenderer spriteRenderer;
+    public GameObject rangeAttack,magicHitBox;
     private int _countSteps = 0;
+    
     public PlayerState currentState;
+    public Type playerType;
     public string playerName;
     public List<EnemyController> enemiesToAttack;
-    public bool alreadyMoved;
+    public bool alreadyMoved, alreadyAttack;
+    public Sprite imgPlayer;
 
-    public enum PlayerState { Ready, Selected, Busy, Attack }
+    public enum PlayerState { Ready, Selected, Defense, Attack }
+
+    public enum Type { Meele, Magic }
 
     private void Awake()
     {
         _playerInput = new PlayerInput();
         currentState = PlayerState.Ready;
         enemiesToAttack = new List<EnemyController>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
        
     private void Start()
@@ -35,7 +51,12 @@ public class PlayerMeeleController : MonoBehaviour
 
     public void EnableInput()
     {
-        UIController._instance.SetStepsLeftMessage("Steps left: " + (steps - _countSteps));
+        if (steps > 0)
+        {
+            UIController._instance.SetStepsLeftMessage((steps - _countSteps).ToString());
+        }
+        
+        UIController._instance.SetImgPlayer(imgPlayer);
         _playerInput.Enable();
     }
 
@@ -50,6 +71,7 @@ public class PlayerMeeleController : MonoBehaviour
         {
             if (VerifySteps())
             {
+                spriteRenderer.flipX = (direction.x >= 0);
                 transform.position += (Vector3)direction;
             }
         }
@@ -63,11 +85,16 @@ public class PlayerMeeleController : MonoBehaviour
             DisableInput();
             return false;
         }
-        
-        alreadyMoved = true;
-        _countSteps++;
-        UIController._instance.SetStepsLeftMessage("Steps left: " + (steps - _countSteps));
-        return true;
+
+        if (GetCurrentState() == PlayerState.Selected)
+        {
+            alreadyMoved = true;
+            _countSteps++;
+            UIController._instance.SetStepsLeftMessage((steps - _countSteps).ToString());
+            return true;
+        }
+
+        return false;
         
     }
 
@@ -75,6 +102,7 @@ public class PlayerMeeleController : MonoBehaviour
     {
         Vector3Int gridPostion = _groundTileMap.WorldToCell(transform.position + (Vector3)direction);
 
+        // Verify if the next position is a grid position or a collision position
         if (!_groundTileMap.HasTile(gridPostion) || _collisionTileMap.HasTile(gridPostion))
             return false;
 
@@ -89,6 +117,25 @@ public class PlayerMeeleController : MonoBehaviour
     public void SetState(PlayerState playerState)
     {
         currentState = playerState;
+    }
+
+    public Type GetTypePlayer()
+    {
+        return playerType;
+    }
+
+    public void ActiveMagicHitBox(bool active)
+    {
+        if (this.GetTypePlayer() == Type.Magic)
+        {
+            magicHitBox.SetActive(active);
+        }
+    }
+
+
+    public void ActiveRange(bool active)
+    {
+        rangeAttack.SetActive(active);
     }
 
     public int GetSteps()

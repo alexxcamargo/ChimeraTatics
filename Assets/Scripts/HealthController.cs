@@ -2,9 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/// <summary>
+/// Heart System to characters and player
+/// </summary>
 public class HealthController : MonoBehaviour
 {
-    public int maxHealth;
+    // Can be change in Inspector
+    public int maxHealth = 3;
     private int currentHealth;
 
     public void Awake()

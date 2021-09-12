@@ -3,28 +3,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/// <summary>
+/// Raycast to get collision with enemies and change the list of enemies can be attack
+/// </summary>
 public class MeeleAttack : MonoBehaviour
 {
     public RaycastHit2D hitDown, hitUp, hitLeft, hitRight;
     private EnemyController lastEnemyDown, lastEnemyUp, lastEnemyLeft, lastEnemyRight;
-    private PlayerMeeleController _playerMeeleController;
-    public LayerMask chaoLayerMask;
+    private PlayerController _playerMeeleController;
+    public LayerMask enemieLayerMask;
     public float distanceToAttack;
     public bool drawnLines;
 
     void Awake()
     {
-        _playerMeeleController = GetComponentInParent<PlayerMeeleController>();
+        _playerMeeleController = GetComponentInParent<PlayerController>();
     }
 
     void Update()
     {
-        hitDown = Physics2D.Raycast(transform.position, Vector2.down, distanceToAttack, chaoLayerMask);
-        hitUp = Physics2D.Raycast(transform.position, Vector2.up, distanceToAttack, chaoLayerMask);
-        hitRight = Physics2D.Raycast(transform.position, Vector2.right, distanceToAttack, chaoLayerMask);
-        hitLeft = Physics2D.Raycast(transform.position, Vector2.left, distanceToAttack, chaoLayerMask);
-        
-        
+        hitDown = Physics2D.Raycast(transform.position, Vector2.down, distanceToAttack, enemieLayerMask);
+        hitUp = Physics2D.Raycast(transform.position, Vector2.up, distanceToAttack, enemieLayerMask);
+        hitRight = Physics2D.Raycast(transform.position, Vector2.right, distanceToAttack, enemieLayerMask);
+        hitLeft = Physics2D.Raycast(transform.position, Vector2.left, distanceToAttack, enemieLayerMask);
+
+
+        // For each RaycastHit2D that collide with the enemy we change the list of the enemies of player can attack
         if (hitDown.collider != null)
         {
             lastEnemyDown = hitDown.collider.gameObject.GetComponent<EnemyController>();
@@ -90,7 +95,6 @@ public class MeeleAttack : MonoBehaviour
                 lastEnemyLeft = null;
             }
         }
-            
 
     }
 
@@ -118,8 +122,6 @@ public class MeeleAttack : MonoBehaviour
             Gizmos.DrawLine(transform.position, new Vector2(transform.position.x, transform.position.y + distanceToAttack));
             Gizmos.DrawLine(transform.position, new Vector2(transform.position.x - distanceToAttack, transform.position.y));
             Gizmos.DrawLine(transform.position, new Vector2(transform.position.x + distanceToAttack, transform.position.y));
-            
         }
-
     }
 }

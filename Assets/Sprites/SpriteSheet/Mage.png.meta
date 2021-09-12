@@ -1,0 +1,3228 @@
+fileFormatVersion: 2
+guid: df144091fcd72774eb0acf6a77964f26
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7744555576423863594
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_0
+  - first:
+      213: 6052845820202337126
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_1
+  - first:
+      213: 4873576729148792126
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_2
+  - first:
+      213: 8505390584459717242
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_3
+  - first:
+      213: -363018136435628975
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_4
+  - first:
+      213: 6456583213669308744
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_5
+  - first:
+      213: -9022645855527751972
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_6
+  - first:
+      213: -6045594355640646858
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_7
+  - first:
+      213: 1063553880522669077
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_8
+  - first:
+      213: -3391797868682953719
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_9
+  - first:
+      213: -4938955130920673282
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_10
+  - first:
+      213: 3111752228897686765
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_11
+  - first:
+      213: 1008940820364393711
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_12
+  - first:
+      213: -3419243882499032327
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_13
+  - first:
+      213: 6444629130287719162
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_14
+  - first:
+      213: -220216016363142692
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_15
+  - first:
+      213: -7206828323761936379
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_16
+  - first:
+      213: -3347517999929034096
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_17
+  - first:
+      213: 4687172608017902548
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_18
+  - first:
+      213: 6996610785289876502
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_19
+  - first:
+      213: 4057602913952203812
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_20
+  - first:
+      213: 6074224012575422063
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_21
+  - first:
+      213: 5022812008090681284
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_22
+  - first:
+      213: 1106617645158968098
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_23
+  - first:
+      213: -1140950340074375424
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_24
+  - first:
+      213: 7264537302076819445
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_25
+  - first:
+      213: -1825577409531548623
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_26
+  - first:
+      213: 234302580840258968
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_27
+  - first:
+      213: 1592926711540648938
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_28
+  - first:
+      213: -5760557807280513260
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_29
+  - first:
+      213: -604336874717385036
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_30
+  - first:
+      213: 7896597866098213097
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_31
+  - first:
+      213: 249270568949747513
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_32
+  - first:
+      213: 4038299982182805113
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_33
+  - first:
+      213: 6829374686957029683
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_34
+  - first:
+      213: -7906190605813470321
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_35
+  - first:
+      213: -1774281695481992178
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_36
+  - first:
+      213: 7372772945946943103
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_37
+  - first:
+      213: 1757534145914919088
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_38
+  - first:
+      213: -4739512160930486022
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_39
+  - first:
+      213: -6578451085931691438
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_40
+  - first:
+      213: 247838941330515539
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_41
+  - first:
+      213: 6819772569981415693
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_42
+  - first:
+      213: 8861606617284930749
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_43
+  - first:
+      213: -3220033839922640995
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_44
+  - first:
+      213: 3142588940348232124
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_45
+  - first:
+      213: -618762101055150564
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_46
+  - first:
+      213: -2621655093774890579
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_47
+  - first:
+      213: -5001848697452289533
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_48
+  - first:
+      213: -7776670084091056485
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_49
+  - first:
+      213: -4641389443538409696
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_50
+  - first:
+      213: 1411025111580143926
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_51
+  - first:
+      213: -4102440444762952422
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_52
+  - first:
+      213: -2484033758945262515
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_53
+  - first:
+      213: 1338283088784778522
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_54
+  - first:
+      213: -4233128990201044417
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_55
+  - first:
+      213: 4494357674204845653
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_56
+  - first:
+      213: 1106802102593061711
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_57
+  - first:
+      213: 6524764371803150794
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_58
+  - first:
+      213: 3492119636173124464
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_59
+  - first:
+      213: 1650231230228811768
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_60
+  - first:
+      213: 465686717466948263
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_61
+  - first:
+      213: 3790234464344382348
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_62
+  - first:
+      213: 898579196060701824
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_63
+  - first:
+      213: 5714446804267777273
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_64
+  - first:
+      213: -8494929902712515759
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_65
+  - first:
+      213: -143810874019830958
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_66
+  - first:
+      213: 4702022213318372135
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_67
+  - first:
+      213: 482230676136745190
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_68
+  - first:
+      213: -7960823614958540233
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_69
+  - first:
+      213: -3433093101905345610
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_70
+  - first:
+      213: 16490111514650818
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_71
+  - first:
+      213: -5311271150349486485
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_72
+  - first:
+      213: -1288447114021436858
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_73
+  - first:
+      213: -9031789238379901705
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_74
+  - first:
+      213: 1272659563971198008
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_75
+  - first:
+      213: -8819051972651489045
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_76
+  - first:
+      213: -8278957746705579968
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_77
+  - first:
+      213: 6161925674635755775
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_78
+  - first:
+      213: 52039717886013988
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_79
+  - first:
+      213: -2171232176475992544
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_80
+  - first:
+      213: -4012505419270272770
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_81
+  - first:
+      213: -2406617174058099285
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_82
+  - first:
+      213: 6404394916392115967
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_83
+  - first:
+      213: -1804172912031937005
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_84
+  - first:
+      213: 6201008727374291563
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_85
+  - first:
+      213: -8487008134307863972
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_86
+  - first:
+      213: 8792376085875107550
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_87
+  - first:
+      213: 5832575453534487356
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_88
+  - first:
+      213: -3746877990992975736
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_89
+  - first:
+      213: 7792515485787740653
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_90
+  - first:
+      213: -5366970314847540382
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_91
+  - first:
+      213: 1943625500009514306
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_92
+  - first:
+      213: -7042410695296551540
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_93
+  - first:
+      213: 4807162826214203823
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_94
+  - first:
+      213: -6406128311976726076
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_95
+  - first:
+      213: 1003423785774482356
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_96
+  - first:
+      213: -961852451170398233
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_97
+  - first:
+      213: -6371081424746815275
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_98
+  - first:
+      213: -3822189006990547199
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_99
+  - first:
+      213: 4394522069812386024
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_100
+  - first:
+      213: 8653516819323612325
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_101
+  - first:
+      213: -6826597950544531330
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_102
+  - first:
+      213: -6427744216110720422
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_103
+  - first:
+      213: 2357181948903278120
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_104
+  - first:
+      213: -4997507573373912400
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_105
+  - first:
+      213: -8774651352157943608
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_106
+  - first:
+      213: 2428736266406578414
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_107
+  - first:
+      213: -1751726448903118702
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_108
+  - first:
+      213: -8228683531483384481
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_109
+  - first:
+      213: -5733778883218039188
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_110
+  - first:
+      213: 3989697645773418612
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_111
+  - first:
+      213: 546736361458053186
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_112
+  - first:
+      213: -7147504571840941200
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_113
+  - first:
+      213: -8443201032625938474
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_114
+  - first:
+      213: -8339086622402813532
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_115
+  - first:
+      213: -8025446941497330460
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_116
+  - first:
+      213: 7007379907244037858
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_117
+  - first:
+      213: -9134644347214352123
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_118
+  - first:
+      213: -2538298806330387552
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_119
+  - first:
+      213: 1683802034780968014
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_120
+  - first:
+      213: -6667609514174062484
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_121
+  - first:
+      213: -6393814163563747807
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_122
+  - first:
+      213: 2362132666952745254
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_123
+  - first:
+      213: 8637469643835272111
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_124
+  - first:
+      213: -3991896713570766892
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_125
+  - first:
+      213: 8611889815816074204
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_126
+  - first:
+      213: -1177200614464675521
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_127
+  - first:
+      213: 7279392774171896739
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_128
+  - first:
+      213: 888442337063877631
+    second: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_129
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 492
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25d30ca3403a7b60800000000000000
+      internalID: 7744555576423863594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 492
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6634e514437000450800000000000000
+      internalID: 6052845820202337126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 493
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d168eb63c62a340800000000000000
+      internalID: 4873576729148792126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 493
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a6cae4ca7390670800000000000000
+      internalID: 8505390584459717242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_4
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 494
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154eab2adec46faf0800000000000000
+      internalID: -363018136435628975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 493
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849528179346a9950800000000000000
+      internalID: 6456583213669308744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 492
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde2e1ff56f19c280800000000000000
+      internalID: -9022645855527751972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 493
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633cee7e6fbb91ca0800000000000000
+      internalID: -6045594355640646858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 492
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cba009e9082ce00800000000000000
+      internalID: 1063553880522669077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_9
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 492
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cb9371fc9ede0d0800000000000000
+      internalID: -3391797868682953719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_10
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 493
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff51e3e97e457bb0800000000000000
+      internalID: -4938955130920673282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_11
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 493
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de40a785a2a2f2b20800000000000000
+      internalID: 3111752228897686765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_12
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 494
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecf53d945a700e00800000000000000
+      internalID: 1008940820364393711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_13
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 493
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fab7370ec76c80d0800000000000000
+      internalID: -3419243882499032327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_14
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 492
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af22fe38c0cef6950800000000000000
+      internalID: 6444629130287719162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_15
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 493
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1c2da23b2a1fcf0800000000000000
+      internalID: -220216016363142692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 443
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50822fca2d33cfb90800000000000000
+      internalID: -7206828323761936379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_17
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 443
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09af00f6d1a3b81d0800000000000000
+      internalID: -3347517999929034096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_18
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 442
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db29dd37ae2c0140800000000000000
+      internalID: 4687172608017902548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_19
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 442
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614bed88074f81160800000000000000
+      internalID: 6996610785289876502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_20
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 443
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42406b52a508f4830800000000000000
+      internalID: 4057602913952203812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_21
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 443
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66b4bb8e8afb4450800000000000000
+      internalID: 6074224012575422063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_22
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 445
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfbfcbc8ec94b540800000000000000
+      internalID: 5022812008090681284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_23
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 443
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b21e992ee7b5f00800000000000000
+      internalID: 1106617645158968098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_24
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 443
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0077181f5b78a20f0800000000000000
+      internalID: -1140950340074375424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_25
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 443
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f70dd3ef22d0d460800000000000000
+      internalID: 7264537302076819445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_26
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 442
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ce4e2b40f3aa6e0800000000000000
+      internalID: -1825577409531548623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_27
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 442
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dd0f4b4f8604300800000000000000
+      internalID: 234302580840258968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_28
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 443
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb8c9a87663b1610800000000000000
+      internalID: 1592926711540648938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_29
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 443
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f11fce1336e00b0800000000000000
+      internalID: -5760557807280513260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_30
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 445
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4beecc970d6fc97f0800000000000000
+      internalID: -604336874717385036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_31
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 443
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e044e6dbe9569d60800000000000000
+      internalID: 7896597866098213097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_32
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 395
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f85330346957300800000000000000
+      internalID: 249270568949747513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_33
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 396
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ee87e107cea0830800000000000000
+      internalID: 4038299982182805113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_34
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 394
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3394e1e1810d6ce50800000000000000
+      internalID: 6829374686957029683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_35
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 394
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b25f56881974290800000000000000
+      internalID: -7906190605813470321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_36
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 394
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c6151d23c7067e0800000000000000
+      internalID: -1774281695481992178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_37
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 394
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e17c48ee9515660800000000000000
+      internalID: 7372772945946943103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_38
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 394
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8d0ef6ef3046810800000000000000
+      internalID: 1757534145914919088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_39
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 394
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af82817fcced93eb0800000000000000
+      internalID: -4739512160930486022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_40
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 395
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25242ca6795a4b4a0800000000000000
+      internalID: -6578451085931691438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_41
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 396
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356a38b3430807300800000000000000
+      internalID: 247838941330515539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_42
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 394
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01f1ba0503b4ae50800000000000000
+      internalID: 6819772569981415693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_43
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 394
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbce4828440cafa70800000000000000
+      internalID: 8861606617284930749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_44
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 394
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d978ca678442053d0800000000000000
+      internalID: -3220033839922640995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_45
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 394
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb11788bdf7bc9b20800000000000000
+      internalID: 3142588940348232124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_46
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 394
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16222eb527b967f0800000000000000
+      internalID: -618762101055150564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_47
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 394
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da944f315920e9bd0800000000000000
+      internalID: -2621655093774890579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 345
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3022b105c1dd59ab0800000000000000
+      internalID: -5001848697452289533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_49
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 345
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e6856d2c7b31490800000000000000
+      internalID: -7776670084091056485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_50
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 346
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02725a964e8769fb0800000000000000
+      internalID: -4641389443538409696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_51
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 345
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631f3e0fcd7f49310800000000000000
+      internalID: 1411025111580143926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_52
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 345
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d65b1b6243117c0800000000000000
+      internalID: -4102440444762952422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_53
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 345
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d444dfb0570f68dd0800000000000000
+      internalID: -2484033758945262515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_54
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 345
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15ede3f069829210800000000000000
+      internalID: 1338283088784778522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_55
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 345
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32a8aa8c97e045c0800000000000000
+      internalID: -4233128990201044417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_56
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 345
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556d7881e7a2f5e30800000000000000
+      internalID: 4494357674204845653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_57
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 345
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4307b1f5a62c5f00800000000000000
+      internalID: 1106802102593061711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_58
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 346
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9937060ae9c8a50800000000000000
+      internalID: 6524764371803150794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_59
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 345
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073f34b9e40867030800000000000000
+      internalID: 3492119636173124464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_60
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 345
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff4b038f8cc6e610800000000000000
+      internalID: 1650231230228811768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_61
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 345
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a23c3b2a93767600800000000000000
+      internalID: 465686717466948263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_62
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 345
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b90bee92e999430800000000000000
+      internalID: 3790234464344382348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_63
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 345
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08411c79405687c00800000000000000
+      internalID: 898579196060701824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_64
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 303
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc3f30971bcd4f40800000000000000
+      internalID: 5714446804267777273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_65
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 303
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1531af4f242fb1a80800000000000000
+      internalID: -8494929902712515759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_66
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 303
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253a533a5c4110ef0800000000000000
+      internalID: -143810874019830958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_67
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 303
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b66d66a40f04140800000000000000
+      internalID: 4702022213318372135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_68
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 303
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e85de6be3a31b600800000000000000
+      internalID: 482230676136745190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_69
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 303
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73aead6b919758190800000000000000
+      internalID: -7960823614958540233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_70
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 303
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3861c53043b50d0800000000000000
+      internalID: -3433093101905345610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_71
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 303
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c823274ba59a3000800000000000000
+      internalID: 16490111514650818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_72
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 303
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6673a177039a46b0800000000000000
+      internalID: -5311271150349486485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_73
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 303
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64200e02d248e1ee0800000000000000
+      internalID: -1288447114021436858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_74
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 303
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc8b284a83a8a280800000000000000
+      internalID: -9031789238379901705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_75
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 303
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cb18e612569a110800000000000000
+      internalID: 1272659563971198008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_76
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 303
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8666ac4fe6c9580800000000000000
+      internalID: -8819051972651489045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_77
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 303
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040452d0bcb3b1d80800000000000000
+      internalID: -8278957746705579968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_78
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 303
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff00609f0ce838550800000000000000
+      internalID: 6161925674635755775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_79
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 303
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422bec209d1e8b000800000000000000
+      internalID: 52039717886013988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_80
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 254
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e0044d6db3ed1e0800000000000000
+      internalID: -2171232176475992544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_81
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 254
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8c0119497b058c0800000000000000
+      internalID: -4012505419270272770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_82
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 254
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad99e55e6af99ed0800000000000000
+      internalID: -2406617174058099285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_83
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 254
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe9ed89e3bf0e850800000000000000
+      internalID: 6404394916392115967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_84
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 254
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e44f0ab4a46f6e0800000000000000
+      internalID: -1804172912031937005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_85
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 254
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62ed3c45986e0650800000000000000
+      internalID: 6201008727374291563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_86
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 253
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52aab46117183a80800000000000000
+      internalID: -8487008134307863972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_87
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 253
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6a932577bc40a70800000000000000
+      internalID: 8792376085875107550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_88
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 254
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c330691097871f050800000000000000
+      internalID: 5832575453534487356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_89
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 254
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888622aa15a600cc0800000000000000
+      internalID: -3746877990992975736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_90
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 254
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9db1d3c83942c60800000000000000
+      internalID: 7792515485787740653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_91
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 254
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b227f1fe0b485b0800000000000000
+      internalID: -5366970314847540382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_92
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 254
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2454570381529fa10800000000000000
+      internalID: 1943625500009514306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_93
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 254
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85ff60f8c4544e90800000000000000
+      internalID: -7042410695296551540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_94
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 253
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1e5f9fe1976b240800000000000000
+      internalID: 4807162826214203823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_95
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 253
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1fd0bcd3cd817a0800000000000000
+      internalID: -6406128311976726076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_96
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 205
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b30446ed90eced00800000000000000
+      internalID: 1003423785774482356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_97
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 204
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef46a1ba40d6a2f0800000000000000
+      internalID: -961852451170398233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_98
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 205
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d060ea133f5597a0800000000000000
+      internalID: -6371081424746815275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_99
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 204
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107ece5595bd4fac0800000000000000
+      internalID: -3822189006990547199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_100
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 205
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e818c01a8a7cfc30800000000000000
+      internalID: 4394522069812386024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_101
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 205
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ace6a9e2b7771870800000000000000
+      internalID: 8653516819323612325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_102
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 205
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e703265355d0341a0800000000000000
+      internalID: -6826597950544531330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_103
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 205
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a16abe0b01cc6a0800000000000000
+      internalID: -6427744216110720422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_104
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 205
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826c75f5e7466b020800000000000000
+      internalID: 2357181948903278120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_105
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 204
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba39b6075945aab0800000000000000
+      internalID: -4997507573373912400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_106
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 205
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c889b6d51d2a3680800000000000000
+      internalID: -8774651352157943608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_107
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 204
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8c54c24ca94b120800000000000000
+      internalID: 2428736266406578414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_108
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 205
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2902975631e90b7e0800000000000000
+      internalID: -1751726448903118702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_109
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 205
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5573d0fce7ddcd80800000000000000
+      internalID: -8228683531483384481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_110
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 205
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e172d0c768d60b0800000000000000
+      internalID: -5733778883218039188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_111
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 205
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4707989ded04e5730800000000000000
+      internalID: 3989697645773418612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_112
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 156
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2403f72f2d5669700800000000000000
+      internalID: 546736361458053186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_113
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 156
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073b0f40676fecc90800000000000000
+      internalID: -7147504571840941200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_114
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 156
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df9e131569b3da80800000000000000
+      internalID: -8443201032625938474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_115
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 156
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1e77836ec954c80800000000000000
+      internalID: -8339086622402813532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_116
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 156
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e47e400782ef9090800000000000000
+      internalID: -8025446941497330460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_117
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 156
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e69d7126e63f3160800000000000000
+      internalID: 7007379907244037858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_118
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 156
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50132c61d593b3180800000000000000
+      internalID: -9134644347214352123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_119
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 156
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a311e22fa626ccd0800000000000000
+      internalID: -2538298806330387552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_120
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 156
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44133b87011e5710800000000000000
+      internalID: 1683802034780968014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_121
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 156
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60e3ae2974e773a0800000000000000
+      internalID: -6667609514174062484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_122
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 156
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126ebe4e4eb9447a0800000000000000
+      internalID: -6393814163563747807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_123
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 156
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621801e352bf7c020800000000000000
+      internalID: 2362132666952745254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_124
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 156
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab6507b0e47ed770800000000000000
+      internalID: 8637469643835272111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_125
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 156
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfa097c61fe998c0800000000000000
+      internalID: -3991896713570766892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_126
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 156
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd37584e824938770800000000000000
+      internalID: 8611889815816074204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_127
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 156
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f312679374eb9afe0800000000000000
+      internalID: -1177200614464675521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_128
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 82
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abaf050929950560800000000000000
+      internalID: 7279392774171896739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Final Fantasy Tactics A2 Grimoire of the Rift - Black Mage_129
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 8
+        width: 82
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb3c103991645c00800000000000000
+      internalID: 888442337063877631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
