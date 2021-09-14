@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     public GameObject rangeAttack,magicHitBox;
     private int _countSteps = 0;
+    public Vector2 currentPositonGrid;
     
     public PlayerState currentState;
     public Type playerType;
@@ -32,7 +33,7 @@ public class PlayerController : MonoBehaviour
     public bool alreadyMoved, alreadyAttack;
     public Sprite imgPlayer;
 
-    public enum PlayerState { Ready, Selected, Defense, Attack }
+    public enum PlayerState { Ready, Selected, Defense, Attack, Dead }
 
     public enum Type { Meele, Magic }
 
@@ -104,7 +105,9 @@ public class PlayerController : MonoBehaviour
 
         // Verify if the next position is a grid position or a collision position
         if (!_groundTileMap.HasTile(gridPostion) || _collisionTileMap.HasTile(gridPostion))
-            return false;
+           return false;
+        
+        currentPositonGrid = new Vector2(gridPostion.x, gridPostion.y);    
 
         return true; 
     }
