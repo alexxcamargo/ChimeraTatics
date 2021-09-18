@@ -40,44 +40,55 @@ public class UIController : MonoBehaviour
     }
 
 
-    public void OnClickBtnBusy()
-    {
-
-    }
-
-    public void SetImgPlayer(Sprite img)
+    public void SetImgHUD(Sprite img)
     {
         imgPlayer.sprite = img;
     }
 
-    public void OnClickClearHUD()
+    public void OnClickClearHUD(bool defaultMessage = true)
     {
-        SetTxtMessage("Select the Player to Move");
+        if(defaultMessage)
+            SetTxtMessage("Select the Player to Move");
+
         txtStepsLeft.text = "";
         txtHealth.text = "";
         imgPlayer.sprite = null;
         ShowHideUiImage(false);
     }
 
-    public void OnClickCharacter(int currentHealth, string playerName)
+    public void OnClickCharacter(int currentHealth, string playerName, int step)
     {
         SetTxtMessage(playerName + " Selected");
         txtHealth.text = currentHealth.ToString();
+        txtStepsLeft.text = step.ToString();
         ShowHideUiImage(true);
     }
 
     public void OnClickDefenseCharacter(string playerName, Sprite charImage)
     {
         SetTxtMessage(playerName + " is in defense mode please select another one");
-        SetImgPlayer(charImage);
+        SetImgHUD(charImage);
     }
 
-    void ShowHideUiImage(bool show)
+    void ShowHideUiImage(bool show, bool enemy = false)
     {
         imgBoot.gameObject.SetActive(show);
         imgHeart.gameObject.SetActive(show);
-        btnAttack.gameObject.SetActive(show);
-        btnDefense.gameObject.SetActive(show);
+
+        if (!enemy)
+        {
+            btnAttack.gameObject.SetActive(show);
+            btnDefense.gameObject.SetActive(show);
+        }
+    }
+
+
+    public void ShowHudEnemy(int currentHealth, string enemyName, Sprite enemyImage)
+    {
+        SetTxtMessage(enemyName + " Round");
+        txtHealth.text = currentHealth.ToString();
+        ShowHideUiImage(true,true);
+        SetImgHUD(enemyImage);
     }
 
 }

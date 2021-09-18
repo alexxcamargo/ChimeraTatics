@@ -1,26 +1,42 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using Random = UnityEngine.Random;
 
 public class EnemyController : MonoBehaviour
 {
+    [Range(5, 30)]
+    public int MaxDamageOnAttack;
+
     public EnemyState currentState;
-    public GameObject target;
+    public PlayerController target;
     [SerializeField]
     private Tilemap _groundTileMap;
     [SerializeField]
     private Tilemap _collisionTileMap;
-    bool canWalk = true;
 
-    public bool enemyPosUp, enemyPosInLine, enemyPosDown, enemyPosRight;
+    public String name;
+    bool canWalk = true;
+    public Sprite imgHud;
+    public List<PlayerController> playerToAttack;
+    private Animator animator;
+    private AnimationState currentAnimationState;
+    public MeeleAttackEnemy meeleAttackEnemy;
+    private int indexEnemyToAttack;
 
     public enum EnemyState { Ready, EnableToAttack, Busy, Attack, Dead }
-    
+
+    public enum AnimationState { Idle, Dead }
+
 
     private void Awake()
     {
         currentState = EnemyState.Ready;
+        animator = GetComponentInChildren<Animator>();
+        meeleAttackEnemy = GetComponentInChildren<MeeleAttackEnemy>();
+        meeleAttackEnemy.gameObject.SetActive(false);
     }
 
     public EnemyState GetCurrentState()
@@ -30,15 +46,43 @@ public class EnemyController : MonoBehaviour
 
     public void SetState(EnemyState newState)
     {
+        if (GetCurrentState() == EnemyState.Dead || newState == EnemyState.Dead)
+        {
+            currentAnimationState = AnimationState.Dead;
+            currentState = EnemyState.Dead;
+            this.GetComponent<BoxCollider2D>().enabled = false;
+            return;
+        }
+
         currentState = newState;
     }
-    
-
-    public void RoundEnemy()
+    void FixedUpdate()
     {
-        if (GetCurrentState() != EnemyState.Attack)
+        ChangeAnimation();
+    }
+
+    void ChangeAnimation()
+    {
+        animator.Play(Enum.GetName(typeof(AnimationState), currentAnimationState));
+    }
+
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public void StartRoundEnemy()
+    {
+        if (GetCurrentState() != EnemyState.Attack && GetCurrentState() != EnemyState.Busy)
         {
             SetState(EnemyState.Attack);
+            // Select Random Player To Attack
+            List<PlayerController> lisPlayerAlive = RoundController._instance.GetPlayerAlive();
+            indexEnemyToAttack = Random.Range(0, lisPlayerAlive.Count);
+            target = lisPlayerAlive[indexEnemyToAttack];
+
+            UIController._instance.ShowHudEnemy(this.gameObject.GetComponent<HealthController>().GetCurrentHealth(), name, imgHud);
+            meeleAttackEnemy.gameObject.SetActive(true);
+            
             StartCoroutine(MoveEnemy());
         }
     }
@@ -64,7 +108,6 @@ public class EnemyController : MonoBehaviour
                     yield return new WaitForSeconds(.5f);
                 }
             }
-
 
             // Move Down
             if (posPlayer.y < enemyPostion.y)
@@ -111,6 +154,10 @@ public class EnemyController : MonoBehaviour
                 canWalk = false;
             }
         }
+
+        // After walk Trying To Attack the player
+        AttackPlayer();
+        yield return new WaitForSeconds(.5f);
     }
 
     /// <summary>
@@ -130,6 +177,27 @@ public class EnemyController : MonoBehaviour
             return false;
 
         return posPlayer != nextPos;
+    }
+
+    /// <summary>
+    /// After Attack the player Set Enemy to budy and call Enemy round again to the next enemy Ready Can Attack
+    /// </summary>
+    void AttackPlayer()
+    {
+
+        int damage = Random.Range(5, MaxDamageOnAttack);
+
+        if (target.GetComponent<HealthController>().Damage(damage) <= 0)
+        {
+            target.SetState(PlayerController.PlayerState.Dead);
+        }
+
+        UIController._instance.SetTxtMessage($@"The {target.playerName} loses {damage} hitpoints");
+
+        meeleAttackEnemy.gameObject.SetActive(false);
+        SetState(EnemyState.Busy);
+        RoundController._instance.EnemyRound();
+        canWalk = true;
     }
 
 

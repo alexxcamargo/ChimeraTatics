@@ -1,0 +1,3228 @@
+fileFormatVersion: 2
+guid: 5c2cd2957a9e233438298b1b0e72c1ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7085348331125279097
+    second: GrimoireRift_0
+  - first:
+      213: -4373905612164899160
+    second: GrimoireRift_1
+  - first:
+      213: 6328852365862679794
+    second: GrimoireRift_2
+  - first:
+      213: -4445232339201654178
+    second: GrimoireRift_3
+  - first:
+      213: -6987049365725127111
+    second: GrimoireRift_4
+  - first:
+      213: 1044849804503990907
+    second: GrimoireRift_5
+  - first:
+      213: -768055441948953676
+    second: GrimoireRift_6
+  - first:
+      213: -601504690377872909
+    second: GrimoireRift_7
+  - first:
+      213: -1624353783563237459
+    second: GrimoireRift_8
+  - first:
+      213: 3607677303279430453
+    second: GrimoireRift_9
+  - first:
+      213: 2372853838284073285
+    second: GrimoireRift_10
+  - first:
+      213: 4244918979428167025
+    second: GrimoireRift_11
+  - first:
+      213: -29036646070723119
+    second: GrimoireRift_12
+  - first:
+      213: 7018426888461296742
+    second: GrimoireRift_13
+  - first:
+      213: -2343588450378741988
+    second: GrimoireRift_14
+  - first:
+      213: 6986159884632808769
+    second: GrimoireRift_15
+  - first:
+      213: -3406224702311745237
+    second: GrimoireRift_16
+  - first:
+      213: 7629639994320540166
+    second: GrimoireRift_17
+  - first:
+      213: 2596637250503042594
+    second: GrimoireRift_18
+  - first:
+      213: -2890906844877114798
+    second: GrimoireRift_19
+  - first:
+      213: -4783856818027231756
+    second: GrimoireRift_20
+  - first:
+      213: 4069062829608675891
+    second: GrimoireRift_21
+  - first:
+      213: -7601456285623870853
+    second: GrimoireRift_22
+  - first:
+      213: -6875193242533298237
+    second: GrimoireRift_23
+  - first:
+      213: 7987084747872171383
+    second: GrimoireRift_24
+  - first:
+      213: 737638456581867863
+    second: GrimoireRift_25
+  - first:
+      213: 1384523745718051384
+    second: GrimoireRift_26
+  - first:
+      213: -5835747692053780080
+    second: GrimoireRift_27
+  - first:
+      213: -778011470468772646
+    second: GrimoireRift_28
+  - first:
+      213: -6680042340075391366
+    second: GrimoireRift_29
+  - first:
+      213: -3491609023445074335
+    second: GrimoireRift_30
+  - first:
+      213: -2168628583856806863
+    second: GrimoireRift_31
+  - first:
+      213: -4141598688479061008
+    second: GrimoireRift_32
+  - first:
+      213: -4954129535425478014
+    second: GrimoireRift_33
+  - first:
+      213: -2466546396971593711
+    second: GrimoireRift_34
+  - first:
+      213: 8023788585271088140
+    second: GrimoireRift_35
+  - first:
+      213: -804122081237744797
+    second: GrimoireRift_36
+  - first:
+      213: -4475514416085236297
+    second: GrimoireRift_37
+  - first:
+      213: -2050702866793812322
+    second: GrimoireRift_38
+  - first:
+      213: -5527129409290175535
+    second: GrimoireRift_39
+  - first:
+      213: -61322362323412635
+    second: GrimoireRift_40
+  - first:
+      213: 285765390096432219
+    second: GrimoireRift_41
+  - first:
+      213: -2783929900824837188
+    second: GrimoireRift_42
+  - first:
+      213: 2108213471677121190
+    second: GrimoireRift_43
+  - first:
+      213: -1897812878022829771
+    second: GrimoireRift_44
+  - first:
+      213: -27352792321379971
+    second: GrimoireRift_45
+  - first:
+      213: -7291009491592664582
+    second: GrimoireRift_46
+  - first:
+      213: 2995980658531784694
+    second: GrimoireRift_47
+  - first:
+      213: 18946199132948561
+    second: GrimoireRift_48
+  - first:
+      213: 1058591639718139380
+    second: GrimoireRift_49
+  - first:
+      213: 567308842802462247
+    second: GrimoireRift_50
+  - first:
+      213: 4700932745466646245
+    second: GrimoireRift_51
+  - first:
+      213: 5026857180077407190
+    second: GrimoireRift_52
+  - first:
+      213: 7643769765791276582
+    second: GrimoireRift_53
+  - first:
+      213: -3159906126721175877
+    second: GrimoireRift_54
+  - first:
+      213: -4998872923481164346
+    second: GrimoireRift_55
+  - first:
+      213: -2847961492812186797
+    second: GrimoireRift_56
+  - first:
+      213: -7140229597585335723
+    second: GrimoireRift_57
+  - first:
+      213: -531115615307114788
+    second: GrimoireRift_58
+  - first:
+      213: 7469125841617208806
+    second: GrimoireRift_59
+  - first:
+      213: -4995810774971451151
+    second: GrimoireRift_60
+  - first:
+      213: -8349430839054693840
+    second: GrimoireRift_61
+  - first:
+      213: -3933737217346801244
+    second: GrimoireRift_62
+  - first:
+      213: 7685958832227236139
+    second: GrimoireRift_63
+  - first:
+      213: 1169710260434441116
+    second: GrimoireRift_64
+  - first:
+      213: 3381379472576077670
+    second: GrimoireRift_65
+  - first:
+      213: -5919779531625814266
+    second: GrimoireRift_66
+  - first:
+      213: 3540239742039583819
+    second: GrimoireRift_67
+  - first:
+      213: 6702506882165403837
+    second: GrimoireRift_68
+  - first:
+      213: 467680221411370582
+    second: GrimoireRift_69
+  - first:
+      213: 862182964699628251
+    second: GrimoireRift_70
+  - first:
+      213: -1393163240724680474
+    second: GrimoireRift_71
+  - first:
+      213: -7947773740697539612
+    second: GrimoireRift_72
+  - first:
+      213: -7476366636539917523
+    second: GrimoireRift_73
+  - first:
+      213: 4362898081779357736
+    second: GrimoireRift_74
+  - first:
+      213: 4175927429532844639
+    second: GrimoireRift_75
+  - first:
+      213: 8984975582817731836
+    second: GrimoireRift_76
+  - first:
+      213: -8126226826680149181
+    second: GrimoireRift_77
+  - first:
+      213: -8651971335601997723
+    second: GrimoireRift_78
+  - first:
+      213: 7415054474324687767
+    second: GrimoireRift_79
+  - first:
+      213: 4728577421321959962
+    second: GrimoireRift_80
+  - first:
+      213: 7461991648248126029
+    second: GrimoireRift_81
+  - first:
+      213: -2741857826277493999
+    second: GrimoireRift_82
+  - first:
+      213: -3434155055975952403
+    second: GrimoireRift_83
+  - first:
+      213: 1434133310774824692
+    second: GrimoireRift_84
+  - first:
+      213: 7219417998313502261
+    second: GrimoireRift_85
+  - first:
+      213: -7856376158443733329
+    second: GrimoireRift_86
+  - first:
+      213: 2773801865366484060
+    second: GrimoireRift_87
+  - first:
+      213: -1024010466633646073
+    second: GrimoireRift_88
+  - first:
+      213: 5899464124588539387
+    second: GrimoireRift_89
+  - first:
+      213: 1386673968417276444
+    second: GrimoireRift_90
+  - first:
+      213: -8148469884329831147
+    second: GrimoireRift_91
+  - first:
+      213: -6765427640297082869
+    second: GrimoireRift_92
+  - first:
+      213: -4155896167737273465
+    second: GrimoireRift_93
+  - first:
+      213: 3584897699029392324
+    second: GrimoireRift_94
+  - first:
+      213: 8233107835954174321
+    second: GrimoireRift_95
+  - first:
+      213: 3225185575414575731
+    second: GrimoireRift_96
+  - first:
+      213: -3506267814960350943
+    second: GrimoireRift_97
+  - first:
+      213: 7418268209091438749
+    second: GrimoireRift_98
+  - first:
+      213: 3450738131247838653
+    second: GrimoireRift_99
+  - first:
+      213: -438798033777766764
+    second: GrimoireRift_100
+  - first:
+      213: -1916472257750670319
+    second: GrimoireRift_101
+  - first:
+      213: 9157914106504023145
+    second: GrimoireRift_102
+  - first:
+      213: 360810359800381244
+    second: GrimoireRift_103
+  - first:
+      213: -3379977125850510202
+    second: GrimoireRift_104
+  - first:
+      213: -8215156197388934117
+    second: GrimoireRift_105
+  - first:
+      213: -5769744392233287612
+    second: GrimoireRift_106
+  - first:
+      213: -8422569921569665450
+    second: GrimoireRift_107
+  - first:
+      213: -6698761760447334783
+    second: GrimoireRift_108
+  - first:
+      213: 4199518770418353260
+    second: GrimoireRift_109
+  - first:
+      213: 2879415194753205523
+    second: GrimoireRift_110
+  - first:
+      213: 2863416815276680677
+    second: GrimoireRift_111
+  - first:
+      213: 6726699335054131430
+    second: GrimoireRift_112
+  - first:
+      213: -6725269056564983040
+    second: GrimoireRift_113
+  - first:
+      213: 5166192563430788930
+    second: GrimoireRift_114
+  - first:
+      213: -363304410447554158
+    second: GrimoireRift_115
+  - first:
+      213: 7190859905700514227
+    second: GrimoireRift_116
+  - first:
+      213: -7402162531014020194
+    second: GrimoireRift_117
+  - first:
+      213: 5109923719502620291
+    second: GrimoireRift_118
+  - first:
+      213: -4651062945168943904
+    second: GrimoireRift_119
+  - first:
+      213: -5522911392175899307
+    second: GrimoireRift_120
+  - first:
+      213: 267278331099852265
+    second: GrimoireRift_121
+  - first:
+      213: -5993354096429654670
+    second: GrimoireRift_122
+  - first:
+      213: 6737201989209736833
+    second: GrimoireRift_123
+  - first:
+      213: -1980253582763969542
+    second: GrimoireRift_124
+  - first:
+      213: -75659074463522581
+    second: GrimoireRift_125
+  - first:
+      213: -6119645341244267460
+    second: GrimoireRift_126
+  - first:
+      213: -1556856348198498432
+    second: GrimoireRift_127
+  - first:
+      213: -3836901081816912564
+    second: GrimoireRift_128
+  - first:
+      213: -3618019324333211139
+    second: GrimoireRift_129
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GrimoireRift_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 476
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786fe5d8b39cbad90800000000000000
+      internalID: -7085348331125279097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 475
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aed2d90504cc43c0800000000000000
+      internalID: -4373905612164899160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 476
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4b22fe1b994d750800000000000000
+      internalID: 6328852365862679794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 477
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e528ec54dbc5f42c0800000000000000
+      internalID: -4445232339201654178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 474
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ed5dfee93090f90800000000000000
+      internalID: -6987049365725127111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 475
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72c8118c5d008e00800000000000000
+      internalID: 1044849804503990907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 476
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3b3d615a15755f0800000000000000
+      internalID: -768055441948953676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 474
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9ab47cba607a7f0800000000000000
+      internalID: -601504690377872909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_8
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 476
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7c62d07d22579e0800000000000000
+      internalID: -1624353783563237459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_9
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 475
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ba53e946b011230800000000000000
+      internalID: 3607677303279430453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_10
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 476
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54928d67ef11ee020800000000000000
+      internalID: 2372853838284073285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_11
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 477
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d212d325bf8ea30800000000000000
+      internalID: 4244918979428167025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_12
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 474
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd5c710357d89ff0800000000000000
+      internalID: -29036646070723119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_13
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 475
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66429c0e116766160800000000000000
+      internalID: 7018426888461296742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_14
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 476
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c178773a8b6e97fd0800000000000000
+      internalID: -2343588450378741988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_15
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 474
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d5f9b9663d3f060800000000000000
+      internalID: 6986159884632808769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 426
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b293c812ea8aab0d0800000000000000
+      internalID: -3406224702311745237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 427
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602d699b62de1e960800000000000000
+      internalID: 7629639994320540166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_18
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 426
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226e7ce52db190420800000000000000
+      internalID: 2596637250503042594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_19
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 427
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252ba509a8f61e7d0800000000000000
+      internalID: -2890906844877114798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 427
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f50829e1935c9db0800000000000000
+      internalID: -4783856818027231756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_21
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 426
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a229fa517387830800000000000000
+      internalID: 4069062829608675891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_22
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 429
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a9abf48c3328690800000000000000
+      internalID: -7601456285623870853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_23
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 427
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cff2a81c286690a0800000000000000
+      internalID: -6875193242533298237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_24
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 426
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7757cd3c243d7de60800000000000000
+      internalID: 7987084747872171383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_25
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 427
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759ca31a44e9c3a00800000000000000
+      internalID: 737638456581867863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_26
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 426
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8322e9ed201d63310800000000000000
+      internalID: 1384523745718051384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_27
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 427
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0992458a462430fa0800000000000000
+      internalID: -5835747692053780080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_28
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 427
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc878f80b2f335f0800000000000000
+      internalID: -778011470468772646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_29
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 426
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76bc3352e8bb43a0800000000000000
+      internalID: -6680042340075391366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_30
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 429
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ef10fa7105b8fc0800000000000000
+      internalID: -3491609023445074335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_31
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 427
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134e479facb77e1e0800000000000000
+      internalID: -2168628583856806863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_32
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 378
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb5bfa9fe51686c0800000000000000
+      internalID: -4141598688479061008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_33
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 380
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28281b58f656f3bb0800000000000000
+      internalID: -4954129535425478014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_34
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 375
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1101d7ace1115cdd0800000000000000
+      internalID: -2466546396971593711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_35
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 378
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04dae9d4393a5f60800000000000000
+      internalID: 8023788585271088140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_36
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 378
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363c6cf3a3f27d4f0800000000000000
+      internalID: -804122081237744797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_37
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 377
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b58912d957c3e1c0800000000000000
+      internalID: -4475514416085236297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_38
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 378
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e21e49b907a83e0800000000000000
+      internalID: -2050702866793812322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_39
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 378
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbf4a31611bb43b0800000000000000
+      internalID: -5527129409290175535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_40
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 378
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569dce8e2a3262ff0800000000000000
+      internalID: -61322362323412635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_41
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 380
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c7cc5bb1e37f300800000000000000
+      internalID: 285765390096432219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_42
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 375
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb34fbd418e7d59d0800000000000000
+      internalID: -2783929900824837188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_43
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 378
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a202029bf0e14d10800000000000000
+      internalID: 2108213471677121190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_44
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 378
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53999431e3d99a5e0800000000000000
+      internalID: -1897812878022829771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_45
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 377
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71b112c7c2de9ff0800000000000000
+      internalID: -27352792321379971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_46
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 378
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af92e9f2f7121da90800000000000000
+      internalID: -7291009491592664582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_47
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 378
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f75ab9198cd39920800000000000000
+      internalID: 2995980658531784694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 328
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158c92db77f434000800000000000000
+      internalID: 18946199132948561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_49
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 328
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f51997dc7fd0be00800000000000000
+      internalID: 1058591639718139380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_50
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 330
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ebd25036c7fd700800000000000000
+      internalID: 567308842802462247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_51
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 331
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee8a86ec611d3140800000000000000
+      internalID: 4700932745466646245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_52
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 328
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbb22bc8fbf2c540800000000000000
+      internalID: 5026857180077407190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_53
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 329
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e1cd28a10241a60800000000000000
+      internalID: 7643769765791276582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_54
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 330
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe2431ae12c524d0800000000000000
+      internalID: -3159906126721175877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_55
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 329
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5369eaf8f60aab0800000000000000
+      internalID: -4998872923481164346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_56
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 328
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b30f68c120a78d0800000000000000
+      internalID: -2847961492812186797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_57
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 328
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a1235f20fc8ec90800000000000000
+      internalID: -7140229597585335723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_58
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 330
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6d4fe692911a8f0800000000000000
+      internalID: -531115615307114788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_59
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 331
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5c84c316aa7a760800000000000000
+      internalID: 7469125841617208806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_60
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 328
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8f1c0b1905baab0800000000000000
+      internalID: -4995810774971451151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_61
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 329
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a047993ecd02c80800000000000000
+      internalID: -8349430839054693840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_62
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 330
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a17f48b7de8869c0800000000000000
+      internalID: -3933737217346801244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_63
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 329
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b293e2106d20aaa60800000000000000
+      internalID: 7685958832227236139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_64
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 287
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c931353d845ab3010800000000000000
+      internalID: 1169710260434441116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_65
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 287
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fd1b907b21dee20800000000000000
+      internalID: 3381379472576077670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_66
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 287
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607a0dc51e7b8dda0800000000000000
+      internalID: -5919779531625814266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_67
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 287
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c6df3d945712130800000000000000
+      internalID: 3540239742039583819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_68
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 287
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db074187f76140d50800000000000000
+      internalID: 6702506882165403837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_69
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 287
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65663b9fea88d7600800000000000000
+      internalID: 467680221411370582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_70
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 287
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2805e96d617fb00800000000000000
+      internalID: 862182964699628251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_71
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 287
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e03972f96d7aace0800000000000000
+      internalID: -1393163240724680474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_72
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 287
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebab8654e5d3b190800000000000000
+      internalID: -7947773740697539612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_73
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 287
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bc472d72c9e3890800000000000000
+      internalID: -7476366636539917523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_74
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 287
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82811b390b02c8c30800000000000000
+      internalID: 4362898081779357736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_75
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 287
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f528d154fdfd3f930800000000000000
+      internalID: 4175927429532844639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_76
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 287
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4c86920bb01bc70800000000000000
+      internalID: 8984975582817731836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_77
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 287
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bda7771c7d93f80800000000000000
+      internalID: -8126226826680149181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_78
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 287
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568b49e09e50ee780800000000000000
+      internalID: -8651971335601997723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_79
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 287
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b3b4cf1c097e660800000000000000
+      internalID: 7415054474324687767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_80
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 238
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1af3d29c184f9140800000000000000
+      internalID: 4728577421321959962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_81
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 238
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ad2c66ed15e8760800000000000000
+      internalID: 7461991648248126029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_82
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 238
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113fa1085d6f2f9d0800000000000000
+      internalID: -2741857826277493999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_83
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 238
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def01f8eb2e6750d0800000000000000
+      internalID: -3434155055975952403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_84
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 238
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fec945d5a017e310800000000000000
+      internalID: 1434133310774824692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_85
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 238
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536b98a5b66803460800000000000000
+      internalID: 7219417998313502261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_86
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 237
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faefc1e328b88f290800000000000000
+      internalID: -7856376158443733329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_87
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 237
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c543c7ea9168e7620800000000000000
+      internalID: 2773801865366484060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_88
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 238
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7000502f7ebf9c1f0800000000000000
+      internalID: -1024010466633646073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_89
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 238
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdb2475d5b1fd150800000000000000
+      internalID: 5899464124588539387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_90
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 238
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c120bca90a47e3310800000000000000
+      internalID: 1386673968417276444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_91
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 238
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5155d8900d1daee80800000000000000
+      internalID: -8148469884329831147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_92
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 238
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00bb7ae76f5c12a0800000000000000
+      internalID: -6765427640297082869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_93
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 238
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783dc9e447a4356c0800000000000000
+      internalID: -4155896167737273465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_94
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 237
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb13c2b67d10c130800000000000000
+      internalID: 3584897699029392324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_95
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 237
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1799887b4ffd14270800000000000000
+      internalID: 8233107835954174321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_96
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 189
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372bc4d613922cc20800000000000000
+      internalID: 3225185575414575731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_97
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 188
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12937e1dffb375fc0800000000000000
+      internalID: -3506267814960350943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_98
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 189
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98e77be1abf2f660800000000000000
+      internalID: 7418268209091438749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_99
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 188
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db53ced2c0c73ef20800000000000000
+      internalID: 3450738131247838653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_100
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 189
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e498c538319e9f0800000000000000
+      internalID: -438798033777766764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_101
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 189
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11461eea2a25765e0800000000000000
+      internalID: -1916472257750670319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_102
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 189
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c06b1fb52771f70800000000000000
+      internalID: 9157914106504023145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_103
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 189
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fbe2f4c1bd10500800000000000000
+      internalID: 360810359800381244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_104
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 189
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c0cb046b8e711d0800000000000000
+      internalID: -3379977125850510202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_105
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 188
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14a848d6f6edfd80800000000000000
+      internalID: -8215156197388934117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_106
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 189
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44002207b00cdefa0800000000000000
+      internalID: -5769744392233287612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_107
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 188
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e43f0f7450d1b80800000000000000
+      internalID: -8422569921569665450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_108
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 189
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186f091aba73903a0800000000000000
+      internalID: -6698761760447334783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_109
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 189
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c640f5a5210b74a30800000000000000
+      internalID: 4199518770418353260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_110
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 189
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31580242ddcb5f720800000000000000
+      internalID: 2879415194753205523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_111
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 189
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e562762c66ecb720800000000000000
+      internalID: 2863416815276680677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_112
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 140
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e002c8d7690a5d50800000000000000
+      internalID: 6726699335054131430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_113
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 140
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b8480dc6b0ba2a0800000000000000
+      internalID: -6725269056564983040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_114
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 140
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f8e88c3c002b740800000000000000
+      internalID: 5166192563430788930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_115
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 138
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299d0f5409845faf0800000000000000
+      internalID: -363304410447554158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_116
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 140
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9c0e44cf01bc360800000000000000
+      internalID: 7190859905700514227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_117
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 140
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93f339756c364990800000000000000
+      internalID: -7402162531014020194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_118
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 139
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386eb42ac881ae640800000000000000
+      internalID: 5109923719502620291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_119
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 139
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4193dc4ea147fb0800000000000000
+      internalID: -4651062945168943904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_120
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 140
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55db567b95daa53b0800000000000000
+      internalID: -5522911392175899307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_121
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 140
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edad5dd93095b300800000000000000
+      internalID: 267278331099852265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_122
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 140
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d9d25143453dca0800000000000000
+      internalID: -5993354096429654670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_123
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 138
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186c6e293895f7d50800000000000000
+      internalID: 6737201989209736833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_124
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 140
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3b82abbd9b484e0800000000000000
+      internalID: -1980253582763969542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_125
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 140
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0219ef87433fef0800000000000000
+      internalID: -75659074463522581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_126
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 139
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34e2c34cf6a21ba0800000000000000
+      internalID: -6119645341244267460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_127
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 139
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f015f566fe46ae0800000000000000
+      internalID: -1556856348198498432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_128
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 77
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dadfb7bc690cac0800000000000000
+      internalID: -3836901081816912564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrimoireRift_129
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 8
+        width: 77
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1ce96f7963acdc0800000000000000
+      internalID: -3618019324333211139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

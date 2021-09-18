@@ -40,68 +40,78 @@ public class MouseController : MonoBehaviour
 
     private void OnClickActions()
     {
-        // Get the  Coordinates where the Mouse is on the screen
-        Ray ray = mainCamera.ScreenPointToRay(playerInput.Main.MousePosition.ReadValue<Vector2>());
-        RaycastHit2D hits2D = Physics2D.GetRayIntersection(ray);
-
-        
-        if (hits2D.collider != null)
+        if (RoundController._instance.GetCurrentState() == RoundController.RoundState.Player)
         {
-            if(hits2D.collider.tag == "Player")
-            {
-                PlayerActions(hits2D);
-            }
+            // Get the  Coordinates where the Mouse is on the screen
+            Ray ray = mainCamera.ScreenPointToRay(playerInput.Main.MousePosition.ReadValue<Vector2>());
+            RaycastHit2D hits2D = Physics2D.GetRayIntersection(ray);
 
-            if (hits2D.collider.tag == "AI" && currentState == MouseState.Attack)
-            {
-                AttackEnemies(hits2D);
-            }
 
-            if (hits2D.collider.tag == "MageHitBox")
+            if (hits2D.collider != null)
             {
-                ChangeMouseState(MouseState.Ready);
-                lastPlayerSelect.ActiveMagicHitBox(false);
-                lastPlayerSelect.ActiveRange(false);
-                UIController._instance.OnClickClearHUD();
-                OnClickActions();
-            }
-        }
-        else
-        {
-            // Verify if the point of click is not an UIElement
-            if (!EventSystem.current.IsPointerOverGameObject())
-            {
-                ChangeMouseState(MouseState.Ready);
-                UIController._instance.OnClickClearHUD();
-                
-                if (lastPlayerSelect != null)
+                if (hits2D.collider.tag == "Player")
                 {
+                    PlayerActions(hits2D);
+                }
+
+                if (hits2D.collider.tag == "AI" && currentState == MouseState.Attack)
+                {
+                    AttackEnemies(hits2D);
+                }
+
+                if (hits2D.collider.tag == "MageHitBox")
+                {
+                    ChangeMouseState(MouseState.Ready);
+                    DisableHitBox(lastPlayerSelect, false);
                     lastPlayerSelect.ActiveRange(false);
-                    if (lastPlayerSelect.GetCurrentState() != PlayerController.PlayerState.Defense)
-                    {
-                        lastPlayerSelect.SetState(PlayerController.PlayerState.Ready);
-                        if (lastPlayerSelect.alreadyMoved)
-                        {
-                            lastPlayerSelect.steps = 0;
-                        }
-                    }
+                    UIController._instance.OnClickClearHUD();
+                    OnClickActions();
                 }
             }
             else
             {
-                if (lastPlayerSelect != null)
+                // Verify if the point of click is not an UIElement
+                if (!EventSystem.current.IsPointerOverGameObject())
                 {
+                    ChangeMouseState(MouseState.Ready);
+                    UIController._instance.OnClickClearHUD();
 
-                    if (EventSystem.current.currentSelectedGameObject != null)
+                    if (lastPlayerSelect != null)
                     {
-                        if (EventSystem.current.currentSelectedGameObject.name == "btnDefense")
+                        lastPlayerSelect.ActiveRange(false);
+                        if (lastPlayerSelect.GetCurrentState() != PlayerController.PlayerState.Defense)
                         {
-                            lastPlayerSelect.SetState(PlayerController.PlayerState.Defense );
-                            UIController._instance.OnClickClearHUD();
+                            lastPlayerSelect.SetState(PlayerController.PlayerState.Ready);
+                            if (lastPlayerSelect.alreadyMoved)
+                            {
+                                lastPlayerSelect.SetStepsLeft(0);
+                            }
                         }
-                        else
+                    }
+                }
+                else
+                {
+                    if (lastPlayerSelect != null)
+                    {
+
+                        if (EventSystem.current.currentSelectedGameObject != null)
                         {
-                            lastPlayerSelect.ActiveRange(true);
+                            if (EventSystem.current.currentSelectedGameObject.name == "btnDefense")
+                            {
+                                lastPlayerSelect.SetState(PlayerController.PlayerState.Defense);
+                                UIController._instance.OnClickClearHUD();
+
+                                DisableHitBox(lastPlayerSelect, false);
+
+                                if (RoundController._instance.GetPlayersReady())
+                                {
+                                    RoundController._instance.EnemyRound();
+                                }
+                            }
+                            else
+                            {
+                                lastPlayerSelect.ActiveRange(true);
+                            }
                         }
                     }
                 }
@@ -131,20 +141,34 @@ public class MouseController : MonoBehaviour
                 // Verify if this enemy You're trying to attack is on the list of the enemies your Character are able to attack
                 if (lastPlayerSelect.enemiesToAttack.Contains(enemyController))
                 {
-                    UIController._instance.SetTxtMessage("You attacked Enemy !!");
                     lastPlayerSelect.ActiveRange(false);
 
-                    if (lastPlayerSelect.alreadyMoved)
-                    {
-                        lastPlayerSelect.SetState(PlayerController.PlayerState.Defense);
-                        UIController._instance.OnClickClearHUD();
-                    }
+                    lastPlayerSelect.SetState(PlayerController.PlayerState.Defense);
+                    UIController._instance.OnClickClearHUD(false);
 
-                    if (enemyController.GetComponent<HealthController>().Damage(3) <= 0)
+                    int damage = lastPlayerSelect.GetDamage();
+
+                    if (enemyController.GetComponent<HealthController>().Damage(damage) <= 0)
                     {
                         enemyController.SetState(EnemyController.EnemyState.Dead);
-                        enemyController.gameObject.SetActive(false);
                     }
+                    else
+                    {
+                        enemyController.SetState(EnemyController.EnemyState.Ready);
+                    }
+
+                    UIController._instance.SetTxtMessage("An enemy loses " + damage + " hitpoints due to your attack.");
+                    ChangeMouseState(MouseState.Ready);
+
+                    DisableHitBox(lastPlayerSelect, false);
+
+
+                    if (RoundController._instance.GetPlayersReady())
+                    {
+                        RoundController._instance.EnemyRound();
+                    }
+
+
                 }
                 else
                 {
@@ -177,21 +201,33 @@ public class MouseController : MonoBehaviour
         if (playerController.GetCurrentState() == PlayerController.PlayerState.Defense)
         {
             UIController._instance.OnClickDefenseCharacter(playerController.playerName, playerController.imgPlayer);
-
-            if (playerController.GetTypePlayer() == PlayerController.Type.Magic)
-                playerController.ActiveMagicHitBox(false);
-
+            DisableHitBox(playerController, false);
             return;
         }
 
-        // We activate the mage Hit Box when the mage is selected, because if this box is always active the player cannot select characters below the hit box
-        if(playerController.GetTypePlayer() == PlayerController.Type.Magic)
-            playerController.ActiveMagicHitBox(true);
+        DisableHitBox(playerController, true);
 
         playerController.SetState(PlayerController.PlayerState.Selected);
-        UIController._instance.OnClickCharacter(playerController.GetComponent<HealthController>().GetCurrentHealth(), playerController.playerName);
+        UIController._instance.OnClickCharacter(playerController.GetComponent<HealthController>().GetCurrentHealth(), playerController.playerName, playerController.steps);
         playerController.EnableInput();
         lastPlayerSelect = playerController;
         
+    }
+
+
+    /// <summary>
+    /// We activate the mage Hit Box when the mage is selected, because if this box is always active the player cannot select characters below the hit box.
+    /// And The hit box and raycasts from melee change the state of Enemies
+    /// </summary>
+    /// <param name="playerController"></param>
+    /// <param name="enable"></param>
+    private void DisableHitBox(PlayerController playerController, bool enable)
+    {
+        if (playerController.GetTypePlayer() == PlayerController.Type.Magic)
+            playerController.ActiveMagicHitBox(enable);
+
+
+        if (playerController.GetTypePlayer() == PlayerController.Type.Melee)
+            playerController.ActiveMeleeRaycast(enable);
     }
 }

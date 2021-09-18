@@ -33,7 +33,7 @@ public class MeeleAttack : MonoBehaviour
         if (hitDown.collider != null)
         {
             lastEnemyDown = hitDown.collider.gameObject.GetComponent<EnemyController>();
-            hitDown.collider.gameObject.GetComponent<EnemyController>().SetState(EnemyController.EnemyState.EnableToAttack);
+            lastEnemyDown.SetState(EnemyController.EnemyState.EnableToAttack);
             ChangeListEnemiesPlayer(lastEnemyDown, true);
         }
         else
@@ -49,7 +49,7 @@ public class MeeleAttack : MonoBehaviour
         if (hitUp.collider != null)
         {
             lastEnemyUp = hitUp.collider.gameObject.GetComponent<EnemyController>();
-            hitUp.collider.gameObject.GetComponent<EnemyController>().SetState(EnemyController.EnemyState.EnableToAttack);
+            lastEnemyUp.SetState(EnemyController.EnemyState.EnableToAttack);
             ChangeListEnemiesPlayer(lastEnemyUp, true);
         }
         else
@@ -66,7 +66,7 @@ public class MeeleAttack : MonoBehaviour
         if (hitRight.collider != null)
         {
             lastEnemyRight = hitRight.collider.gameObject.GetComponent<EnemyController>();
-            hitRight.collider.gameObject.GetComponent<EnemyController>().SetState(EnemyController.EnemyState.EnableToAttack);
+            lastEnemyRight.SetState(EnemyController.EnemyState.EnableToAttack);
             ChangeListEnemiesPlayer(lastEnemyRight, true);
         }
         else
@@ -83,7 +83,7 @@ public class MeeleAttack : MonoBehaviour
         if (hitLeft.collider != null)
         {
             lastEnemyLeft = hitLeft.collider.gameObject.GetComponent<EnemyController>();
-            hitLeft.collider.gameObject.GetComponent<EnemyController>().SetState(EnemyController.EnemyState.EnableToAttack);
+            lastEnemyLeft.SetState(EnemyController.EnemyState.EnableToAttack);
             ChangeListEnemiesPlayer(lastEnemyLeft, true);
         }
         else

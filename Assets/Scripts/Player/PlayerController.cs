@@ -5,37 +5,47 @@ using System.ComponentModel;
 using System.ComponentModel.Design;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 using UnityEngine.Tilemaps;
 using UnityEngine.UI;
-
-
+using Random = UnityEngine.Random;
 
 /// <summary>
 /// Move the player and update States
 /// </summary>
 public class PlayerController : MonoBehaviour
 {
+
+    [Range(20, 100)]
+    public int MaxDamageOnAttack;
+
     [SerializeField]
     private Tilemap _groundTileMap;
     [SerializeField]
     private Tilemap _collisionTileMap;
     private PlayerInput _playerInput;
-    public int steps = 10; 
+    public int steps; 
     private SpriteRenderer spriteRenderer;
     public GameObject rangeAttack,magicHitBox;
-    private int _countSteps = 0;
+    private int _countSteps, stepsLeft;
     public Vector2 currentPositonGrid;
+    private Animator animator;
     
     public PlayerState currentState;
+    private AnimationState currentAnimationState;
     public Type playerType;
     public string playerName;
     public List<EnemyController> enemiesToAttack;
     public bool alreadyMoved, alreadyAttack;
     public Sprite imgPlayer;
 
-    public enum PlayerState { Ready, Selected, Defense, Attack, Dead }
+    private MeeleAttack meeleAttack;
 
-    public enum Type { Meele, Magic }
+    public enum PlayerState { Ready, Selected, Defense, Attack, Dead, OnTarget }
+
+    public enum AnimationState { Idle, Defense, Dead }
+
+    public enum Type { Melee, Magic }
 
     private void Awake()
     {
@@ -43,6 +53,15 @@ public class PlayerController : MonoBehaviour
         currentState = PlayerState.Ready;
         enemiesToAttack = new List<EnemyController>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        animator = GetComponentInChildren<Animator>();
+        stepsLeft = steps;
+
+        if (playerType == Type.Melee)
+        {
+            meeleAttack = GetComponentInChildren<MeeleAttack>();
+            meeleAttack.gameObject.SetActive(false);
+        }
+
     }
        
     private void Start()
@@ -50,14 +69,24 @@ public class PlayerController : MonoBehaviour
         _playerInput.Main.Movement.performed += ctx => Move(ctx.ReadValue<Vector2>());      
     }
 
+    void FixedUpdate()
+    {
+        ChangeAnimation();
+    }
+
+    void ChangeAnimation()
+    {
+        animator.Play(Enum.GetName(typeof(AnimationState), currentAnimationState));
+    }
+
     public void EnableInput()
     {
-        if (steps > 0)
+        if (stepsLeft > 0)
         {
-            UIController._instance.SetStepsLeftMessage((steps - _countSteps).ToString());
+            UIController._instance.SetStepsLeftMessage((stepsLeft - _countSteps).ToString());
         }
         
-        UIController._instance.SetImgPlayer(imgPlayer);
+        UIController._instance.SetImgHUD(imgPlayer);
         _playerInput.Enable();
     }
 
@@ -80,7 +109,7 @@ public class PlayerController : MonoBehaviour
 
     private bool VerifySteps()
     {
-        if (_countSteps >= steps)
+        if (_countSteps >= stepsLeft)
         {
             _countSteps = 0;
             DisableInput();
@@ -91,7 +120,7 @@ public class PlayerController : MonoBehaviour
         {
             alreadyMoved = true;
             _countSteps++;
-            UIController._instance.SetStepsLeftMessage((steps - _countSteps).ToString());
+            UIController._instance.SetStepsLeftMessage((stepsLeft - _countSteps).ToString());
             return true;
         }
 
@@ -119,7 +148,29 @@ public class PlayerController : MonoBehaviour
 
     public void SetState(PlayerState playerState)
     {
+        if (GetCurrentState() == PlayerState.Dead || playerState == PlayerState.Dead)
+        {
+            currentAnimationState = AnimationState.Dead;
+            currentState = playerState;
+            return;
+        }
+
         currentState = playerState;
+
+        if (playerState == PlayerState.Ready)
+        {
+            currentAnimationState = AnimationState.Idle;
+        }
+
+        if (playerState == PlayerState.Defense)
+        {
+            currentAnimationState = AnimationState.Defense;
+        }
+
+        if (playerState == PlayerState.Dead)
+        {
+            currentAnimationState = AnimationState.Dead;
+        }
     }
 
     public Type GetTypePlayer()
@@ -129,11 +180,16 @@ public class PlayerController : MonoBehaviour
 
     public void ActiveMagicHitBox(bool active)
     {
-        if (this.GetTypePlayer() == Type.Magic)
-        {
-            magicHitBox.SetActive(active);
-        }
+        magicHitBox.SetActive(active);
     }
+
+
+
+    public void ActiveMeleeRaycast(bool active)
+    {
+        meeleAttack.gameObject.SetActive(active);
+    }
+
 
 
     public void ActiveRange(bool active)
@@ -145,4 +201,30 @@ public class PlayerController : MonoBehaviour
     {
         return _countSteps;
     }
+
+
+    /// <summary>
+    /// Make a Random number based on max damage to hit a Enemy
+    /// </summary>
+    /// <returns></returns>
+    public int GetDamage()
+    {
+        return Random.Range(20, MaxDamageOnAttack);
+    }
+
+
+    public void SetStepsLeft(int steps)
+    {
+        stepsLeft = steps;
+    }
+
+    /// <summary>
+    /// When Rounds 
+    /// </summary>
+    public void ResetSteps()
+    {
+        SetStepsLeft(steps);
+        _countSteps = 0;
+    }
+    
 }

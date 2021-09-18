@@ -4,13 +4,13 @@ using UnityEngine;
 
 
 /// <summary>
-/// Heart System to characters and player
+/// Heart System to player and enemies
 /// </summary>
 public class HealthController : MonoBehaviour
 {
-    // Can be change in Inspector
+    
     public int maxHealth = 3;
-    private int currentHealth;
+    public int currentHealth;
 
     public void Awake()
     {
@@ -19,7 +19,8 @@ public class HealthController : MonoBehaviour
 
     public int Damage(int damage)
     {
-        return currentHealth - damage;
+        currentHealth -= damage;
+        return currentHealth;
     }
 
     public int GetCurrentHealth()
