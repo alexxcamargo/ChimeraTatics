@@ -152,6 +152,7 @@ public class PlayerController : MonoBehaviour
         {
             currentAnimationState = AnimationState.Dead;
             currentState = playerState;
+            this.gameObject.SetActive(false);
             return;
         }
 

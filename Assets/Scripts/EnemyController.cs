@@ -50,7 +50,8 @@ public class EnemyController : MonoBehaviour
         {
             currentAnimationState = AnimationState.Dead;
             currentState = EnemyState.Dead;
-            this.GetComponent<BoxCollider2D>().enabled = false;
+            //this.GetComponent<BoxCollider2D>().enabled = false;
+            this.gameObject.SetActive(false);
             return;
         }
 

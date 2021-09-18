@@ -141,7 +141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 180421996, guid: dae046b97eb3dfe439ef31dc962e9b3d, type: 3}
       propertyPath: maxHealth
-      value: 100
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 236360257, guid: dae046b97eb3dfe439ef31dc962e9b3d, type: 3}
       propertyPath: m_IsActive
@@ -856,7 +856,7 @@ PrefabInstance:
     - target: {fileID: 1831955746038922369, guid: a80871f0d9c26f041aa23be69a9901e3,
         type: 3}
       propertyPath: maxHealth
-      value: 70
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1831955746038922380, guid: a80871f0d9c26f041aa23be69a9901e3,
         type: 3}
@@ -6280,7 +6280,7 @@ PrefabInstance:
     - target: {fileID: 1831955746038922369, guid: a80871f0d9c26f041aa23be69a9901e3,
         type: 3}
       propertyPath: maxHealth
-      value: 70
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1831955746038922380, guid: a80871f0d9c26f041aa23be69a9901e3,
         type: 3}
@@ -6361,7 +6361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 180421996, guid: dae046b97eb3dfe439ef31dc962e9b3d, type: 3}
       propertyPath: maxHealth
-      value: 100
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 236360257, guid: dae046b97eb3dfe439ef31dc962e9b3d, type: 3}
       propertyPath: m_IsActive
