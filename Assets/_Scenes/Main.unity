@@ -331,7 +331,7 @@ PrefabInstance:
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
       propertyPath: name
-      value: Gil
+      value: Gil General
       objectReference: {fileID: 0}
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
@@ -358,7 +358,7 @@ PrefabInstance:
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
       propertyPath: MaxDamageOnAttack
-      value: 25
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
@@ -994,7 +994,7 @@ PrefabInstance:
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
       propertyPath: name
-      value: Gilmore
+      value: Gilmore Soldier
       objectReference: {fileID: 0}
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
@@ -1327,7 +1327,7 @@ PrefabInstance:
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
       propertyPath: name
-      value: Gil
+      value: Gil Recruit
       objectReference: {fileID: 0}
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
@@ -1354,7 +1354,7 @@ PrefabInstance:
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
       propertyPath: MaxDamageOnAttack
-      value: 25
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
@@ -4182,7 +4182,7 @@ PrefabInstance:
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
       propertyPath: name
-      value: Gil
+      value: Gilmore General
       objectReference: {fileID: 0}
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
@@ -4209,7 +4209,7 @@ PrefabInstance:
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
       propertyPath: MaxDamageOnAttack
-      value: 25
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
@@ -5633,7 +5633,7 @@ PrefabInstance:
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
       propertyPath: name
-      value: Gil
+      value: Gilmore Recruit
       objectReference: {fileID: 0}
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
@@ -5660,7 +5660,7 @@ PrefabInstance:
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
       propertyPath: MaxDamageOnAttack
-      value: 25
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
@@ -6539,7 +6539,7 @@ PrefabInstance:
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}
       propertyPath: name
-      value: Gil
+      value: Gil Soldier
       objectReference: {fileID: 0}
     - target: {fileID: 8867511392549760768, guid: 5a1f1c8e0bbc48d4089a3d5d18932db5,
         type: 3}

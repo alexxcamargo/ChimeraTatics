@@ -5,48 +5,50 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 /// <summary>
-/// Select the Characters and attack the enemies, change the states of Playable characters and enemies
+/// Select the Characters and attack the enemies, change the states of Players characters and enemies
 /// </summary>
 public class MouseController : MonoBehaviour
 {   
-    private Camera mainCamera;
-    private PlayerInput playerInput;
-    private PlayerController lastPlayerSelect;
-    public MouseState currentState;
+    private Camera _mainCamera;
+    private PlayerInput _playerInput;
+    private PlayerController _lastPlayerSelect;
+    private MouseState _currentState;
     
     public enum MouseState { Ready, Selected, Attack }
 
     private void Awake()
     {
-        playerInput = new PlayerInput();
-        mainCamera = Camera.main;
-        currentState = MouseState.Ready;
+        _playerInput = new PlayerInput();
+        _mainCamera = Camera.main;
+        _currentState = MouseState.Ready;
     }
     
     void Start()
     {
-        playerInput.Main.MouseButtons.performed += ctx => OnClickActions();
+        _playerInput.Main.MouseButtons.performed += ctx => OnClickActions();
     }
 
     private void OnEnable()
     {
-        playerInput.Enable();
+        _playerInput.Enable();
     }
     
     public void ChangeMouseState(MouseState mouseState)
     {
-        currentState = mouseState;
+        _currentState = mouseState;
     }
 
     private void OnClickActions()
     {
+        
         if (RoundController._instance.GetCurrentState() == RoundController.RoundState.Player)
         {
             // Get the  Coordinates where the Mouse is on the screen
-            Ray ray = mainCamera.ScreenPointToRay(playerInput.Main.MousePosition.ReadValue<Vector2>());
+            Ray ray = _mainCamera.ScreenPointToRay(_playerInput.Main.MousePosition.ReadValue<Vector2>());
             RaycastHit2D hits2D = Physics2D.GetRayIntersection(ray);
 
 
+            // Verify if where the mouse Click is a collider
             if (hits2D.collider != null)
             {
                 if (hits2D.collider.tag == "Player")
@@ -54,7 +56,7 @@ public class MouseController : MonoBehaviour
                     PlayerActions(hits2D);
                 }
 
-                if (hits2D.collider.tag == "AI" && currentState == MouseState.Attack)
+                if (hits2D.collider.tag == "AI" && _currentState == MouseState.Attack)
                 {
                     AttackEnemies(hits2D);
                 }
@@ -62,8 +64,8 @@ public class MouseController : MonoBehaviour
                 if (hits2D.collider.tag == "MageHitBox")
                 {
                     ChangeMouseState(MouseState.Ready);
-                    DisableHitBox(lastPlayerSelect, false);
-                    lastPlayerSelect.ActiveRange(false);
+                    DisableHitBox(_lastPlayerSelect, false);
+                    _lastPlayerSelect.ActiveRange(false);
                     UIController._instance.OnClickClearHUD();
                     OnClickActions();
                 }
@@ -76,32 +78,32 @@ public class MouseController : MonoBehaviour
                     ChangeMouseState(MouseState.Ready);
                     UIController._instance.OnClickClearHUD();
 
-                    if (lastPlayerSelect != null)
+                    if (_lastPlayerSelect != null)
                     {
-                        lastPlayerSelect.ActiveRange(false);
-                        if (lastPlayerSelect.GetCurrentState() != PlayerController.PlayerState.Defense)
+                        _lastPlayerSelect.ActiveRange(false);
+                        if (_lastPlayerSelect.GetCurrentState() != PlayerController.PlayerState.Defense)
                         {
-                            lastPlayerSelect.SetState(PlayerController.PlayerState.Ready);
-                            if (lastPlayerSelect.alreadyMoved)
+                            _lastPlayerSelect.SetState(PlayerController.PlayerState.Ready);
+                            if (_lastPlayerSelect.alreadyMoved)
                             {
-                                lastPlayerSelect.SetStepsLeft(0);
+                                _lastPlayerSelect.SetStepsLeft(0);
                             }
                         }
                     }
                 }
                 else
                 {
-                    if (lastPlayerSelect != null)
+                    if (_lastPlayerSelect != null)
                     {
 
                         if (EventSystem.current.currentSelectedGameObject != null)
                         {
                             if (EventSystem.current.currentSelectedGameObject.name == "btnDefense")
                             {
-                                lastPlayerSelect.SetState(PlayerController.PlayerState.Defense);
+                                _lastPlayerSelect.SetState(PlayerController.PlayerState.Defense);
                                 UIController._instance.OnClickClearHUD();
 
-                                DisableHitBox(lastPlayerSelect, false);
+                                DisableHitBox(_lastPlayerSelect, false);
 
                                 if (RoundController._instance.GetPlayersReady())
                                 {
@@ -110,7 +112,7 @@ public class MouseController : MonoBehaviour
                             }
                             else
                             {
-                                lastPlayerSelect.ActiveRange(true);
+                                _lastPlayerSelect.ActiveRange(true);
                             }
                         }
                     }
@@ -125,9 +127,9 @@ public class MouseController : MonoBehaviour
     /// <param name="hits2D">The Enemie you've selected</param>
     private void AttackEnemies(RaycastHit2D hits2D)
     {
-        if (currentState == MouseState.Attack)
+        if (_currentState == MouseState.Attack)
         {
-            if (lastPlayerSelect == null)
+            if (_lastPlayerSelect == null)
             {
                 UIController._instance.SetTxtMessage("Select a player to attack!");
                 return;
@@ -139,14 +141,14 @@ public class MouseController : MonoBehaviour
             if (enemyController.GetCurrentState() == EnemyController.EnemyState.EnableToAttack)
             {
                 // Verify if this enemy You're trying to attack is on the list of the enemies your Character are able to attack
-                if (lastPlayerSelect.enemiesToAttack.Contains(enemyController))
+                if (_lastPlayerSelect.enemiesToAttack.Contains(enemyController))
                 {
-                    lastPlayerSelect.ActiveRange(false);
+                    _lastPlayerSelect.ActiveRange(false);
 
-                    lastPlayerSelect.SetState(PlayerController.PlayerState.Defense);
+                    _lastPlayerSelect.SetState(PlayerController.PlayerState.Defense);
                     UIController._instance.OnClickClearHUD(false);
 
-                    int damage = lastPlayerSelect.GetDamage();
+                    int damage = _lastPlayerSelect.GetDamage();
 
                     if (enemyController.GetComponent<HealthController>().Damage(damage) <= 0)
                     {
@@ -160,7 +162,7 @@ public class MouseController : MonoBehaviour
                     UIController._instance.SetTxtMessage("An enemy loses " + damage + " hitpoints due to your attack.");
                     ChangeMouseState(MouseState.Ready);
 
-                    DisableHitBox(lastPlayerSelect, false);
+                    DisableHitBox(_lastPlayerSelect, false);
 
 
                     if (RoundController._instance.GetPlayersReady())
@@ -190,10 +192,10 @@ public class MouseController : MonoBehaviour
     {
         ChangeMouseState(MouseState.Selected);
 
-        if (lastPlayerSelect != null)
+        if (_lastPlayerSelect != null)
         {
-            lastPlayerSelect.DisableInput();
-            lastPlayerSelect = null;
+            _lastPlayerSelect.DisableInput();
+            _lastPlayerSelect = null;
         }
 
         PlayerController playerController = hits2D.collider.gameObject.GetComponent<PlayerController>();
@@ -210,7 +212,7 @@ public class MouseController : MonoBehaviour
         playerController.SetState(PlayerController.PlayerState.Selected);
         UIController._instance.OnClickCharacter(playerController.GetComponent<HealthController>().GetCurrentHealth(), playerController.playerName, playerController.steps);
         playerController.EnableInput();
-        lastPlayerSelect = playerController;
+        _lastPlayerSelect = playerController;
         
     }
 

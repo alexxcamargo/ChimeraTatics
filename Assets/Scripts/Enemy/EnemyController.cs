@@ -9,22 +9,22 @@ public class EnemyController : MonoBehaviour
 {
     [Range(5, 30)]
     public int MaxDamageOnAttack;
-
-    public EnemyState currentState;
-    public PlayerController target;
+    
     [SerializeField]
     private Tilemap _groundTileMap;
     [SerializeField]
     private Tilemap _collisionTileMap;
 
     public String name;
-    bool canWalk = true;
     public Sprite imgHud;
-    public List<PlayerController> playerToAttack;
-    private Animator animator;
-    private AnimationState currentAnimationState;
-    public MeeleAttackEnemy meeleAttackEnemy;
-    private int indexEnemyToAttack;
+
+    private bool _canWalk = true;
+    private Animator _animator;
+    private AnimationState _currentAnimationState;
+    private int _indexEnemyToAttack;
+    private EnemyState _currentState;
+    private PlayerController _target;
+
 
     public enum EnemyState { Ready, EnableToAttack, Busy, Attack, Dead }
 
@@ -33,29 +33,27 @@ public class EnemyController : MonoBehaviour
 
     private void Awake()
     {
-        currentState = EnemyState.Ready;
-        animator = GetComponentInChildren<Animator>();
-        meeleAttackEnemy = GetComponentInChildren<MeeleAttackEnemy>();
-        meeleAttackEnemy.gameObject.SetActive(false);
+        _currentState = EnemyState.Ready;
+        _animator = GetComponentInChildren<Animator>();
+        _currentAnimationState = AnimationState.Idle;
     }
 
     public EnemyState GetCurrentState()
     {
-        return currentState;
+        return _currentState;
     }
 
     public void SetState(EnemyState newState)
     {
         if (GetCurrentState() == EnemyState.Dead || newState == EnemyState.Dead)
         {
-            currentAnimationState = AnimationState.Dead;
-            currentState = EnemyState.Dead;
-            //this.GetComponent<BoxCollider2D>().enabled = false;
+            _currentAnimationState = AnimationState.Dead;
+            _currentState = EnemyState.Dead;
             this.gameObject.SetActive(false);
             return;
         }
 
-        currentState = newState;
+        _currentState = newState;
     }
     void FixedUpdate()
     {
@@ -64,13 +62,10 @@ public class EnemyController : MonoBehaviour
 
     void ChangeAnimation()
     {
-        animator.Play(Enum.GetName(typeof(AnimationState), currentAnimationState));
+        _animator.Play(Enum.GetName(typeof(AnimationState), _currentAnimationState));
     }
+    
 
-
-    /// <summary>
-    /// 
-    /// </summary>
     public void StartRoundEnemy()
     {
         if (GetCurrentState() != EnemyState.Attack && GetCurrentState() != EnemyState.Busy)
@@ -78,11 +73,10 @@ public class EnemyController : MonoBehaviour
             SetState(EnemyState.Attack);
             // Select Random Player To Attack
             List<PlayerController> lisPlayerAlive = RoundController._instance.GetPlayerAlive();
-            indexEnemyToAttack = Random.Range(0, lisPlayerAlive.Count);
-            target = lisPlayerAlive[indexEnemyToAttack];
+            _indexEnemyToAttack = Random.Range(0, lisPlayerAlive.Count);
+            _target = lisPlayerAlive[_indexEnemyToAttack];
 
             UIController._instance.ShowHudEnemy(this.gameObject.GetComponent<HealthController>().GetCurrentHealth(), name, imgHud);
-            meeleAttackEnemy.gameObject.SetActive(true);
             
             StartCoroutine(MoveEnemy());
         }
@@ -92,10 +86,10 @@ public class EnemyController : MonoBehaviour
     {
         Vector3Int nextPos = new Vector3Int(0,0,0);
         
-        while (canWalk)
+        while (_canWalk)
         {
             Vector3Int enemyPostion = _groundTileMap.WorldToCell(transform.position);
-            Vector3Int posPlayer = _groundTileMap.WorldToCell(target.transform.position);
+            Vector3Int posPlayer = _groundTileMap.WorldToCell(_target.transform.position);
 
             // Move UP
             if (posPlayer.y > enemyPostion.y)
@@ -113,7 +107,6 @@ public class EnemyController : MonoBehaviour
             // Move Down
             if (posPlayer.y < enemyPostion.y)
             {
-
                 nextPos = new Vector3Int(enemyPostion.x, enemyPostion.y - 1, 0);
 
                 if (VerifyNextStep(posPlayer, nextPos))
@@ -152,7 +145,7 @@ public class EnemyController : MonoBehaviour
 
             if (enemyPostion.x == posPlayer.x && enemyPostion.y == posPlayer.y)
             {
-                canWalk = false;
+                _canWalk = false;
             }
         }
 
@@ -170,7 +163,7 @@ public class EnemyController : MonoBehaviour
 
         if (posPlayer == nextPos)
         {
-            canWalk = false;
+            _canWalk = false;
         }
 
         // Verify if the next position is a grid position or a collision position
@@ -181,24 +174,23 @@ public class EnemyController : MonoBehaviour
     }
 
     /// <summary>
-    /// After Attack the player Set Enemy to budy and call Enemy round again to the next enemy Ready Can Attack
+    /// After Attack the player Set Enemy to busy and call Enemy round again to the next enemy Ready Can Attack
     /// </summary>
     void AttackPlayer()
     {
 
         int damage = Random.Range(5, MaxDamageOnAttack);
 
-        if (target.GetComponent<HealthController>().Damage(damage) <= 0)
+        if (_target.GetComponent<HealthController>().Damage(damage) <= 0)
         {
-            target.SetState(PlayerController.PlayerState.Dead);
+            _target.SetState(PlayerController.PlayerState.Dead);
         }
 
-        UIController._instance.SetTxtMessage($@"The {target.playerName} loses {damage} hitpoints");
-
-        meeleAttackEnemy.gameObject.SetActive(false);
+        UIController._instance.SetTxtMessage($@"The {_target.playerName} loses {damage} hitpoints");
+        
         SetState(EnemyState.Busy);
         RoundController._instance.EnemyRound();
-        canWalk = true;
+        _canWalk = true;
     }
 
 

@@ -90,7 +90,6 @@ public class RoundController : MonoBehaviour
 
         SetCurrentState(RoundState.Player);
         listPlayerControllersAlive.ForEach(p => p.SetState(PlayerController.PlayerState.Ready));
-        //UIController._instance.OnClickClearHUD();
     }
 
 

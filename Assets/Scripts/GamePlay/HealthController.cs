@@ -9,22 +9,22 @@ using UnityEngine;
 public class HealthController : MonoBehaviour
 {
     
-    public int maxHealth = 3;
-    public int currentHealth;
+    public int maxHealth = 20;
+    private int _currentHealth;
 
     public void Awake()
     {
-        currentHealth = maxHealth;
+        _currentHealth = maxHealth;
     }
 
     public int Damage(int damage)
     {
-        currentHealth -= damage;
-        return currentHealth;
+        _currentHealth -= damage;
+        return _currentHealth;
     }
 
     public int GetCurrentHealth()
     {
-        return currentHealth;
+        return _currentHealth;
     }
 }

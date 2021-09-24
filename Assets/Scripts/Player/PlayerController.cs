@@ -15,33 +15,32 @@ using Random = UnityEngine.Random;
 /// </summary>
 public class PlayerController : MonoBehaviour
 {
-
     [Range(20, 100)]
-    public int MaxDamageOnAttack;
+    public int MaxDamageOnAttack; // Damage that player can do
+
+    public Type playerType;
+    public int steps;
+    public GameObject rangeAttack,magicHitBox;
+    public bool alreadyMoved;
+    public string playerName;
+    public List<EnemyController> enemiesToAttack;
+    public Sprite imgPlayer;
 
     [SerializeField]
     private Tilemap _groundTileMap;
     [SerializeField]
     private Tilemap _collisionTileMap;
+
     private PlayerInput _playerInput;
-    public int steps; 
-    private SpriteRenderer spriteRenderer;
-    public GameObject rangeAttack,magicHitBox;
-    private int _countSteps, stepsLeft;
-    public Vector2 currentPositonGrid;
-    private Animator animator;
+    private int _countSteps, _stepsLeft;
+    private Animator _animator;
+    private PlayerState _currentState;
+    private AnimationState _currentAnimationState;
+    private MeeleAttack _meleeAttack;
+    private SpriteRenderer _spriteRenderer;
     
-    public PlayerState currentState;
-    private AnimationState currentAnimationState;
-    public Type playerType;
-    public string playerName;
-    public List<EnemyController> enemiesToAttack;
-    public bool alreadyMoved, alreadyAttack;
-    public Sprite imgPlayer;
 
-    private MeeleAttack meeleAttack;
-
-    public enum PlayerState { Ready, Selected, Defense, Attack, Dead, OnTarget }
+    public enum PlayerState { Ready, Selected, Defense, Dead }
 
     public enum AnimationState { Idle, Defense, Dead }
 
@@ -50,18 +49,17 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         _playerInput = new PlayerInput();
-        currentState = PlayerState.Ready;
+        _currentState = PlayerState.Ready;
         enemiesToAttack = new List<EnemyController>();
-        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-        animator = GetComponentInChildren<Animator>();
-        stepsLeft = steps;
+        _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        _animator = GetComponentInChildren<Animator>();
+        _stepsLeft = steps;
 
-        if (playerType == Type.Melee)
+        if (GetTypePlayer() == Type.Melee)
         {
-            meeleAttack = GetComponentInChildren<MeeleAttack>();
-            meeleAttack.gameObject.SetActive(false);
+            _meleeAttack = GetComponentInChildren<MeeleAttack>();
+            _meleeAttack.gameObject.SetActive(false);
         }
-
     }
        
     private void Start()
@@ -76,14 +74,14 @@ public class PlayerController : MonoBehaviour
 
     void ChangeAnimation()
     {
-        animator.Play(Enum.GetName(typeof(AnimationState), currentAnimationState));
+        _animator.Play(Enum.GetName(typeof(AnimationState), _currentAnimationState));
     }
 
     public void EnableInput()
     {
-        if (stepsLeft > 0)
+        if (_stepsLeft > 0)
         {
-            UIController._instance.SetStepsLeftMessage((stepsLeft - _countSteps).ToString());
+            UIController._instance.SetStepsLeftMessage((_stepsLeft - _countSteps).ToString());
         }
         
         UIController._instance.SetImgHUD(imgPlayer);
@@ -101,15 +99,19 @@ public class PlayerController : MonoBehaviour
         {
             if (VerifySteps())
             {
-                spriteRenderer.flipX = (direction.x >= 0);
+                _spriteRenderer.flipX = (direction.x >= 0);
                 transform.position += (Vector3)direction;
             }
         }
     }
 
+    /// <summary>
+    /// Allow player Move if he has a steps  
+    /// </summary>
+    /// <returns></returns>
     private bool VerifySteps()
     {
-        if (_countSteps >= stepsLeft)
+        if (_countSteps >= _stepsLeft)
         {
             _countSteps = 0;
             DisableInput();
@@ -120,14 +122,19 @@ public class PlayerController : MonoBehaviour
         {
             alreadyMoved = true;
             _countSteps++;
-            UIController._instance.SetStepsLeftMessage((stepsLeft - _countSteps).ToString());
+            UIController._instance.SetStepsLeftMessage((_stepsLeft - _countSteps).ToString());
             return true;
         }
 
         return false;
-        
     }
 
+
+    /// <summary>
+    /// Not allow player move in collision tile
+    /// </summary>
+    /// <param name="direction"></param>
+    /// <returns></returns>
     private bool CanMove(Vector2 direction)
     {
         Vector3Int gridPostion = _groundTileMap.WorldToCell(transform.position + (Vector3)direction);
@@ -136,41 +143,34 @@ public class PlayerController : MonoBehaviour
         if (!_groundTileMap.HasTile(gridPostion) || _collisionTileMap.HasTile(gridPostion))
            return false;
         
-        currentPositonGrid = new Vector2(gridPostion.x, gridPostion.y);    
-
         return true; 
     }
 
     public PlayerState GetCurrentState()
     {
-        return currentState;
+        return _currentState;
     }
 
     public void SetState(PlayerState playerState)
     {
         if (GetCurrentState() == PlayerState.Dead || playerState == PlayerState.Dead)
         {
-            currentAnimationState = AnimationState.Dead;
-            currentState = playerState;
+            _currentAnimationState = AnimationState.Dead;
+            _currentState = playerState;
             this.gameObject.SetActive(false);
             return;
         }
 
-        currentState = playerState;
+        _currentState = playerState;
 
         if (playerState == PlayerState.Ready)
         {
-            currentAnimationState = AnimationState.Idle;
+            _currentAnimationState = AnimationState.Idle;
         }
 
         if (playerState == PlayerState.Defense)
         {
-            currentAnimationState = AnimationState.Defense;
-        }
-
-        if (playerState == PlayerState.Dead)
-        {
-            currentAnimationState = AnimationState.Dead;
+            _currentAnimationState = AnimationState.Defense;
         }
     }
 
@@ -183,16 +183,12 @@ public class PlayerController : MonoBehaviour
     {
         magicHitBox.SetActive(active);
     }
-
-
-
+    
     public void ActiveMeleeRaycast(bool active)
     {
-        meeleAttack.gameObject.SetActive(active);
+        _meleeAttack.gameObject.SetActive(active);
     }
-
-
-
+    
     public void ActiveRange(bool active)
     {
         rangeAttack.SetActive(active);
@@ -203,7 +199,6 @@ public class PlayerController : MonoBehaviour
         return _countSteps;
     }
 
-
     /// <summary>
     /// Make a Random number based on max damage to hit a Enemy
     /// </summary>
@@ -212,15 +207,14 @@ public class PlayerController : MonoBehaviour
     {
         return Random.Range(20, MaxDamageOnAttack);
     }
-
-
+    
     public void SetStepsLeft(int steps)
     {
-        stepsLeft = steps;
+        _stepsLeft = steps;
     }
 
     /// <summary>
-    /// When Rounds 
+    /// When Rounds ends Reset the count steps
     /// </summary>
     public void ResetSteps()
     {
